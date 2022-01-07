@@ -52,10 +52,10 @@ export default function Index() {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <div className="pl-4 -mr-48 sm:pl-6 md:ml-48 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
-                  className="w-full rounded-xl lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="/images/intro-1920-1080.png"
+                  className="w-full sm:w-3/5 md:w-3/5 rounded-xl lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src="/images/product-three.png"
                   alt=""
                 />
               </div>
