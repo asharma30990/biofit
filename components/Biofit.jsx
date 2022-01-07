@@ -15,14 +15,17 @@ const product = {
     {
       name: '6 Bottles @ $39/each',
       description: 'Best Value! You save $600!',
+      imageSrc: '/images/product-six.png',
     },
     {
       name: '3 Bottles @ $49/each',
       description: 'Good value. You save $300!',
+      imageSrc: '/images/product-three.png',
     },
     {
       name: '1 Bottle @ $68.99/each',
       description: '$59 + $9.99 Shipping',
+      imageSrc: '/images/product-single.png',
     },
   ],
 }
@@ -34,6 +37,8 @@ function classNames(...classes) {
 
 export default function Biofit() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[0])
+
+  console.log(selectedSize)
 
   return (
     <div className="bg-white">
@@ -103,7 +108,7 @@ export default function Biofit() {
         <div className="mt-10 lg:mt-0 lg:col-start-2 lg:row-span-2 lg:self-center">
           <div className="overflow-hidden rounded-lg aspect-w-1 aspect-h-1">
             <img
-              src={product.imageSrc}
+              src={selectedSize.imageSrc}
               alt={product.imageAlt}
               className="object-cover object-center w-full h-full"
             />
