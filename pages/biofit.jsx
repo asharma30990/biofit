@@ -83,26 +83,26 @@ export default function Index() {
               <div className="max-w-4xl mx-auto">
                 <dl className="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
                   <div className="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                    <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       100% Payment
                     </dt>
-                    <dd className="order-1 text-3xl font-bold text-purple-800">
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
                       Secured
                     </dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                    <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       24 hours / 7 days
                     </dt>
-                    <dd className="order-1 text-3xl font-bold text-purple-800">
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
                       Support
                     </dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                    <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       100% Natural
                     </dt>
-                    <dd className="order-1 text-3xl font-bold text-purple-800">
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
                       Ingredients
                     </dd>
                   </div>
