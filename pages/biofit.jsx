@@ -320,6 +320,25 @@ export default function Index() {
       <BiofitIngredients />
 
       <BiofitFAQ />
+
+      <div className="bg-purple-800">
+        <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
+          <div className="text-2xl font-black">BIOFIT OFFICIAL</div>
+          <p className="max-w-xs pt-4 text-xs">
+            Is not just a token, but an entire ecosystem designed to unite the
+            crypto community.
+          </p>
+          <div className="flex gap-2 pt-4">
+            <FaTwitter className="w-8 h-8 p-1 border-2 border-white rounded-full" />
+            <FaLinkedinIn className="w-8 h-8 p-1 border-2 border-white rounded-full" />
+            <FaInstagram className="w-8 h-8 p-1 border-2 border-white rounded-full" />
+          </div>
+          <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
+          <p className="max-w-xs pt-4 text-xs">
+            Copyright © 2022 BIOFIT OFFICIAL
+          </p>
+        </div>
+      </div>
     </>
   )
 }
