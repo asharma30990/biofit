@@ -1,3 +1,5 @@
+import { FaTwitter, FaLinkedinIn, FaInstagram, FaDiscord } from 'react-icons/fa'
+
 import Biofit from '../components/Biofit'
 import BiofitReviews from '../components/BiofitReviews'
 import BiofitFAQ from '../components/BiofitFAQ'
@@ -6,6 +8,22 @@ import BiofitIngredients from '../components/BiofitIngredients'
 export default function Index() {
   return (
     <>
+      <div className="container relative z-0 flex flex-col items-center justify-between gap-4 px-8 py-6 mx-auto max-w-7xl sm:flex-row">
+        <div className="flex gap-4 sm:gap-8 sm:text-base">
+          <div>Home</div>
+          <div>About</div>
+          <div>Roadmap</div>
+          <div>Team</div>
+          <div>FAQs</div>
+        </div>
+
+        <div className="flex gap-2">
+          <FaTwitter className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
+          <FaLinkedinIn className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
+          <FaInstagram className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
+        </div>
+      </div>
+
       <div className="relative pt-16 pb-16 overflow-hidden bg-white">
         <div className="relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
