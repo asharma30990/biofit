@@ -208,7 +208,7 @@ export default function Example() {
       <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:py-20 lg:px-8">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900">
+            <h2 className="text-3xl font-bold tracking-normal text-gray-900">
               Frequently asked questions
             </h2>
             <p className="mt-4 text-lg text-gray-500">
