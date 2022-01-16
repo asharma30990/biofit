@@ -129,7 +129,7 @@ export default function Example() {
     <div className="bg-gray-100">
       <div className="px-4 py-12 mx-auto max-w-7xl sm:py-16 sm:px-6 lg:px-8">
         <div className="mx-auto divide-y-2 divide-gray-200 max-w-7xl">
-          <h2 className="pb-8 text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
+          <h2 className="pb-8 text-3xl font-bold tracking-normal text-center text-gray-900 sm:text-4xl">
             Frequently asked questions
           </h2>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">

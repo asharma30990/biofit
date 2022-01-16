@@ -57,8 +57,8 @@ export default function BiofitIngredients() {
 
       <div className="relative px-4 pb-16 mx-auto -mt-12 max-w-7xl sm:pb-24 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center lg:max-w-4xl">
-          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            BiofitIngredients
+          <h2 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
+            Biofit Ingredients
           </h2>
           <p className="mt-4 text-gray-500">
             BIOFIT IS MADE FROM ALL-NATURAL INGREDIENTS THAT HAVE NO HARMFUL
