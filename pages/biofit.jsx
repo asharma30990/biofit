@@ -171,7 +171,7 @@ export default function Index() {
 
           <div class="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
             <div class="lg:col-span-1">
-              <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 class="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
                 Time to boost your immunity.
               </h2>
             </div>
