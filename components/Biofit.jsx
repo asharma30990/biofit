@@ -29,6 +29,7 @@ const product = {
     },
   ],
 }
+
 const reviews = { average: 4.5, totalCount: 1624 }
 
 function classNames(...classes) {
