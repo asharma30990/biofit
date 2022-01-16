@@ -46,11 +46,11 @@ const features = [
 export default function BiofitIngredients() {
   return (
     <div className="bg-white">
-      <div aria-hidden="true" className="relative">
+      <div aria-hidden="true" className="relative bg-purple-800">
         <img
           src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt=""
-          className="object-cover object-center w-full h-96"
+          className="object-cover object-center w-full opacity-20 h-96"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-white" />
       </div>
