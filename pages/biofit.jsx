@@ -297,9 +297,9 @@ export default function Index() {
 
       <Biofit />
 
-      <BiofitIngredients />
-
       <BiofitReviews />
+
+      <BiofitIngredients />
 
       <BiofitFAQ />
     </>
