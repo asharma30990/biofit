@@ -135,7 +135,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="container flex justify-center w-full py-20 mx-auto overflow-hidden max-w-7xl rounded-3xl">
+      <div className="container flex justify-center w-full p-4 py-16 mx-auto overflow-hidden max-w-7xl">
         <div className="w-full aspect-w-16 aspect-h-9">
           <ReactPlayer
             height="100%"
@@ -308,7 +308,7 @@ export default function Index() {
                     </svg>
                   </div>
                   <p class="mt-5 text-lg leading-6 font-medium text-gray-900">
-                    Lose Weight
+                    LOSE WEIGHT
                   </p>
                 </dt>
                 <dd class="mt-2 text-base text-gray-500">
