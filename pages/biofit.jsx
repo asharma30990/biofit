@@ -131,7 +131,7 @@ export default function Index() {
       <div className="pt-12 bg-purple-800 sm:pt-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center mx-auto text-center">
-            <div className="w-2/3">
+            <div className="w-full md:w-2/3">
               <div className="w-full mb-12 aspect-w-16 aspect-h-9 ">
                 <ReactPlayer
                   height="100%"
