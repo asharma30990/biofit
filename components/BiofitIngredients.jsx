@@ -123,7 +123,7 @@ const product = {
     {
       name: 'Bifidobacterium Breve',
       items: [
-        'This probiotic strain works by strengthening the immune system so that the body can protect itself from dangerous pathogens. Moreover, it reduces fat, improves the health of hair and skin, enhances respiratory health, and protects against yeast infections. A lot of people naturally lack Bifidobacterium Breve in their body which is why their health can suffer. But with proper supplementation with BioFit, all such issues can be resolved',
+        'This probiotic strain works by strengthening the immune system so that the body can protect itself from dangerous pathogens. Moreover, it reduces fat, improves the health of hair and skin, enhances respiratory health, and protects against yeast infections. A lot of people naturally lack Bifidobacterium Breve in their body which is why their health can suffer. But with proper supplementation with BioFit, all such issues can be resolved.',
       ],
     },
     {
