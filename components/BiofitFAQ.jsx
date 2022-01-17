@@ -67,12 +67,6 @@ const product = {
         'All orders are shipped within 24 hours (Monday-Friday), and should reach you within 5-7 business days.',
       ],
     },
-    {
-      name: 'Bacterium Lactis',
-      items: [
-        'Bacterium Lactis is the last strain of probiotic bacteria added to the BioFit supplement with the purpose to relieve anxiety and depression while regulating the sleep cycle.',
-      ],
-    },
   ],
 }
 
