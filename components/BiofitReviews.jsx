@@ -19,8 +19,7 @@ const reviews = {
         <p>I struggled with digestive issues and weight gain for years so decided to give this a shot. Boy, am I glad I did! My love handles are gone and I'm less bloated.</p>
       `,
       author: 'Jack Miller, Columbus, OH',
-      avatarSrc:
-        'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
+      avatarSrc: '/images/Jack.png',
     },
     {
       id: 1,
@@ -29,8 +28,7 @@ const reviews = {
         <p>This product is like the anti-diet! I still eat all my favorite foods, but the weight is just falling off me. People keep saying they don't recognize me!</p>
       `,
       author: 'Jinni Becker, Minneapolis, MN',
-      avatarSrc:
-        'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
+      avatarSrc: '/images/Jinni.png',
     },
     {
       id: 1,
@@ -39,8 +37,7 @@ const reviews = {
         <p>I've lost 72 pounds since I started using BioFit regularly and I feel unbelievable! I cannot believe how easy and effortless it has been. Thank you!</p>
       `,
       author: 'June Elliot, Fresno, CA',
-      avatarSrc:
-        'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
+      avatarSrc: '/images/June.png',
     },
   ],
 }
