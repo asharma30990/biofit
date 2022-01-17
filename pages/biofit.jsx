@@ -88,13 +88,36 @@ export default function Index() {
 
       <div className="pt-12 bg-purple-800 sm:pt-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <div className="flex flex-col items-center justify-center mx-auto text-center">
+            <div className="w-2/3">
+              <div className="w-full mb-12 aspect-w-16 aspect-h-9 ">
+                <ReactPlayer
+                  height="100%"
+                  width="100%"
+                  url="https://www.youtube.com/watch?v=R69W331T434"
+                />
+              </div>
+            </div>
+
+            <h2 className="max-w-4xl text-3xl font-bold text-white sm:text-4xl">
               Trusted by health experts from over 80 planets
             </h2>
-            <p className="mt-3 text-xl text-gray-200 sm:mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Repellendus repellat laudantium.
+            <p className="mt-6 text-xl text-gray-200 ">
+              BioFit is an all-natural supplement that is known to enhance and
+              balance good bacteria in the gut area. To lose weight, you need to
+              have a balanced hormones and body processes. Many times, people
+              struggle with weight loss because their gut health has issues.
+              <br /> <br />
+              Your gut health is important, especially when it comes to
+              digestion and boosting immune system. If it becomes unhealthy or
+              start leaking, you will definitely struggle to lose weight. It
+              doesn’t matter how much you work out or diet, you will struggle
+              with fitness levels if your gut is not healthy.
+              <br /> <br />
+              Your gut health relies on the good bacteria to boost metabolism,
+              stabilize the immune system, balance hormones, and stabilize your
+              mood. This means, when it is not in order, many body processes
+              will be greatly affected.
             </p>
           </div>
         </div>
@@ -132,16 +155,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="container flex justify-center w-full p-4 py-16 mx-auto overflow-hidden max-w-7xl">
-        <div className="w-full aspect-w-16 aspect-h-9">
-          <ReactPlayer
-            height="100%"
-            width="100%"
-            url="https://www.youtube.com/watch?v=R69W331T434"
-          />
         </div>
       </div>
 
