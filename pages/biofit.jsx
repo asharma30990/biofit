@@ -382,9 +382,9 @@ export default function Index() {
 
       <Biofit />
 
-      <BiofitReviews />
-
       <BiofitIngredients />
+
+      <BiofitReviews />
 
       <BiofitFAQ />
 
