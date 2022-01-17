@@ -151,7 +151,7 @@ export default function Example() {
 
           {/* Image gallery */}
           <img
-            className="order-2 px-10 pt-8 lg:pt-0 lg:pr-0 lg:order-1"
+            className="order-1 px-10 pt-8 lg:pt-0 lg:pr-0 lg:order-2"
             src="/images/b4after.jpeg"
             alt=""
           />
