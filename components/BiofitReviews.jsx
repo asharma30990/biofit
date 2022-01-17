@@ -49,7 +49,7 @@ function classNames(...classes) {
 export default function BiofitReviews() {
   return (
     <div className="bg-white">
-      <div className="max-w-2xl px-4 pb-16 mx-auto sm:pb-24 sm:px-6 lg:max-w-7xl lg:pb-32 lg:px-8 lg:grid lg:grid-cols-12 lg:gap-x-8">
+      <div className="max-w-2xl px-4 pb-16 mx-auto lg:pb-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-12 lg:gap-x-8">
         <div className="lg:col-span-4">
           <h2 className="text-2xl font-bold tracking-normal text-gray-900">
             Customer Reviews
