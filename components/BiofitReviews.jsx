@@ -16,9 +16,9 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+        <p>I struggled with digestive issues and weight gain for years so decided to give this a shot. Boy, am I glad I did! My love handles are gone and I'm less bloated.</p>
       `,
-      author: 'Emily Selman',
+      author: 'Jack Miller, Columbus, OH',
       avatarSrc:
         'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
     },
@@ -26,9 +26,9 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+        <p>This product is like the anti-diet! I still eat all my favorite foods, but the weight is just falling off me. People keep saying they don't recognize me!</p>
       `,
-      author: 'Emily Selman',
+      author: 'Jinni Becker, Minneapolis, MN',
       avatarSrc:
         'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
     },
@@ -36,9 +36,9 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+        <p>I've lost 72 pounds since I started using BioFit regularly and I feel unbelievable! I cannot believe how easy and effortless it has been. Thank you!</p>
       `,
-      author: 'Emily Selman',
+      author: 'June Elliot, Fresno, CA',
       avatarSrc:
         'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
     },

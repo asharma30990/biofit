@@ -108,7 +108,7 @@ export default function Index() {
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
                       <div className="text-xl font-medium text-red-500">
-                        Get BioFit™ Today, While Supplies Last!
+                        95% off Today + Free Shipping! While Supplies Last!
                       </div>
                     </div>
                   </footer>

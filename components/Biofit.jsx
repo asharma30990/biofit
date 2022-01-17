@@ -8,7 +8,7 @@ const product = {
   href: '#',
   price: '',
   description:
-    'Nature’s Formulas hand crafted the BioFit probiotic supplement with seven clinically studied ingredients. While these weight loss pills are one of their more recent creations, Nature’s Formulas has been working on various natural and effective supplements for more than 25 years.',
+    'EVERY BIOFIT PURCHASE INCLUDES THREE BONUS PRODUCTS, INCLUDING TWO E-BOOKS, AND ACCESS TO AN ONLINE PLATFORM.',
   imageSrc: '/images/product-single.png',
   imageAlt: '',
   sizes: [
@@ -95,11 +95,11 @@ export default function Biofit() {
 
             <div className="flex items-center mt-6">
               <CheckIcon
-                className="flex-shrink-0 w-5 h-5 text-green-500"
+                className="flex-shrink-0 w-5 h-5 text-red-500"
                 aria-hidden="true"
               />
-              <p className="ml-2 text-sm text-gray-500">
-                In stock and ready to ship
+              <p className="ml-2 text-sm text-red-500 ">
+                95% off Today + Free Shipping
               </p>
             </div>
           </section>
