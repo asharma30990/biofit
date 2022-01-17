@@ -1,3 +1,5 @@
+import ReactPlayer from 'react-player'
+
 import { FaTwitter, FaLinkedinIn, FaInstagram, FaDiscord } from 'react-icons/fa'
 
 import Biofit from '../components/Biofit'
@@ -133,7 +135,17 @@ export default function Index() {
         </div>
       </div>
 
-      <div class="bg-whitw overflow-hidden">
+      <div className="container flex justify-center w-full py-20 mx-auto overflow-hidden max-w-7xl rounded-3xl">
+        <div className="w-full aspect-w-16 aspect-h-9">
+          <ReactPlayer
+            height="100%"
+            width="100%"
+            url="https://www.youtube.com/watch?v=R69W331T434"
+          />
+        </div>
+      </div>
+
+      <div class="bg-white overflow-hidden">
         <div class="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <svg
             class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
