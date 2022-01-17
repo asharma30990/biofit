@@ -88,7 +88,7 @@ export default function Example() {
       <div className="max-w-2xl px-4 pb-16 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:items-start">
           {/* Product info */}
-          <div className="px-4 mt-10 sm:px-0 sm:mt-16 lg:mt-0">
+          <div className="order-2 px-4 mt-10 sm:px-0 sm:mt-16 lg:mt-0 lg:order-1">
             <h1 className="text-3xl font-bold tracking-normal text-gray-900">
               {product.name}
             </h1>
@@ -156,7 +156,11 @@ export default function Example() {
           </div>
 
           {/* Image gallery */}
-          <img className="px-10 lg:pr-0" src="/images/b4after.jpeg" alt="" />
+          <img
+            className="order-2 px-10 lg:pr-0 lg:order-1"
+            src="/images/b4after.jpeg"
+            alt=""
+          />
         </div>
       </div>
     </div>
