@@ -10,29 +10,31 @@ import BiofitIngredients from '../components/BiofitIngredients'
 export default function Index() {
   return (
     <>
-      <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white bg-purple-800 max-w-7xl sm:flex-row">
-        <div className="flex gap-4 sm:gap-8 sm:text-base">
-          <div className="cursor-pointer">
-            <a href="#home">Home</a>
+      <div className="bg-purple-800">
+        <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white max-w-7xl sm:flex-row">
+          <div className="flex gap-4 sm:gap-8 sm:text-base">
+            <div className="cursor-pointer">
+              <a href="#home">Home</a>
+            </div>
+            <div className="cursor-pointer">
+              <a href="#video">Video</a>
+            </div>
+            <div className="cursor-pointer">
+              <a href="#about">About</a>
+            </div>
+            <div className="cursor-pointer">
+              <a href="#reviews">Reviews</a>
+            </div>
+            <div className="cursor-pointer">
+              <a href="#faq">FAQ</a>
+            </div>
           </div>
-          <div className="cursor-pointer">
-            <a href="#video">Video</a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="#about">About</a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="#reviews">Reviews</a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="#faq">FAQ</a>
-          </div>
-        </div>
 
-        <div className="flex gap-2">
-          <button className="p-2 px-5 font-bold tracking-wide text-purple-700 bg-white rounded-lg animate-bounce">
-            <a href="#buy-now">BUY NOW</a>
-          </button>
+          <div className="flex gap-2">
+            <button className="p-2 px-5 font-bold tracking-wide text-purple-700 bg-white rounded-lg animate-bounce">
+              <a href="#buy-now">BUY NOW</a>
+            </button>
+          </div>
         </div>
       </div>
 
