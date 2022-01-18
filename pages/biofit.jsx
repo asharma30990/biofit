@@ -72,7 +72,7 @@ export default function Index() {
                 <blockquote>
                   <div>
                     <p className="flex items-center gap-4 text-base text-gray-500">
-                      Average Customer Rating 4.8
+                      Customer Rating 4.8
                       <span className="flex text-yellow-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
