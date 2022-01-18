@@ -12,9 +12,15 @@ export default function Index() {
     <>
       <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto max-w-7xl sm:flex-row">
         <div className="flex gap-4 sm:gap-8 sm:text-base">
-          <div className="cursor-pointer">Home</div>
-          <div className="cursor-pointer">Video</div>
-          <div className="cursor-pointer">About</div>
+          <div className="cursor-pointer">
+            <a href="#home">Home</a>
+          </div>
+          <div className="cursor-pointer">
+            <a href="#video">Home</a>
+          </div>
+          <div className="cursor-pointer">
+            <a href="#about">About</a>
+          </div>
           <div className="cursor-pointer">
             <a href="#reviews">Reviews</a>
           </div>
@@ -30,7 +36,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="relative pt-16 pb-16 overflow-hidden bg-white">
+      <div className="relative pt-16 pb-16 overflow-hidden bg-white" id="home">
         <div className="relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -132,7 +138,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="pt-12 bg-purple-800 sm:pt-16">
+      <div className="pt-12 bg-purple-800 sm:pt-16" id="about">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center mx-auto text-center">
             <div className="w-full md:w-2/3">
