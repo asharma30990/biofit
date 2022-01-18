@@ -2,7 +2,7 @@
 import { StarIcon } from '@heroicons/react/solid'
 
 const reviews = {
-  average: 4,
+  average: 5,
   totalCount: 1624,
   counts: [
     { rating: 5, count: 1019 },
