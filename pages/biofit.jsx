@@ -153,6 +153,12 @@ export default function Index() {
               </div>
             </div>
 
+            <div className="w-full md:w-2/3">
+              <div className="w-full mb-12 overflow-hidden rounded-3xl">
+                <img src="/images/free-bonus.jpeg" alt="" />
+              </div>
+            </div>
+
             <h2 className="max-w-4xl text-3xl font-bold tracking-normal text-white sm:text-4xl">
               What is Biofit Supplement?
             </h2>
@@ -172,6 +178,16 @@ export default function Index() {
               stabilize the immune system, balance hormones, and stabilize your
               mood. This means, when it is not in order, many body processes
               will be greatly affected.
+              <br />
+              <br />
+              <div className="mt-4 mb-2 animate-bounce">
+                <a
+                  className="p-2 px-5 text-black bg-white rounded-2xl "
+                  href="https://www.youtube.com/watch?v=R69W331T434"
+                >
+                  Watch this video to know more!
+                </a>
+              </div>
             </p>
           </div>
         </div>
