@@ -79,7 +79,7 @@ export default function Example() {
 
   return (
     <div className="bg-white " id="faq">
-      <div className="max-w-2xl px-4 pb-16 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-2xl px-4 pt-16 pb-16 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:items-start">
           {/* Product info */}
           <div className="order-2 px-4 mt-10 sm:px-0 sm:mt-16 lg:mt-0 lg:order-1">

@@ -42,7 +42,7 @@ export default function Biofit() {
   console.log(selectedSize)
 
   return (
-    <div className="bg-white">
+    <div className="bg-white " id="buy-now">
       <div className="max-w-2xl px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
         {/* Product details */}
         <div className="lg:max-w-lg lg:self-end">
