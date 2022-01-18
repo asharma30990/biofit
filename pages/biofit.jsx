@@ -430,6 +430,10 @@ export default function Index() {
           </p>
         </div>
       </div>
+
+      <div>
+        <img src="" alt="" />
+      </div>
     </>
   )
 }
