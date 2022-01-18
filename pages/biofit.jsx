@@ -412,8 +412,8 @@ export default function Index() {
 
       <BiofitFAQ />
 
-      <div className="flex justify-center">
-        <img className="w-full xl:w-2/3" src="/images/founder.jpeg" alt="" />
+      <div className="flex justify-center pt-10">
+        <img className="w-full xl:w-2/3" src="/images/founder-x.jpeg" alt="" />
       </div>
 
       <div className="bg-purple-800">
