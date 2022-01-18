@@ -17,10 +17,10 @@ export default function Index() {
               <a href="#home">Home</a>
             </div>
             <div className="cursor-pointer">
-              <a href="#video">Video</a>
+              <a href="#about">About</a>
             </div>
             <div className="cursor-pointer">
-              <a href="#about">About</a>
+              <a href="#benifits">Benifits</a>
             </div>
             <div className="cursor-pointer">
               <a href="#reviews">Reviews</a>
@@ -140,10 +140,10 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="pt-12 bg-purple-800 sm:pt-16" id="video">
+      <div className="pt-12 bg-purple-800 sm:pt-16" id="about">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center mx-auto text-center">
-            <div className="w-full md:w-2/3">
+            <div className="hidden w-full md:w-2/3">
               <div className="w-full mb-12 aspect-w-16 aspect-h-9 ">
                 <ReactPlayer
                   height="100%"
@@ -153,8 +153,8 @@ export default function Index() {
               </div>
             </div>
 
-            <h2 className="max-w-4xl text-3xl font-bold text-white sm:text-4xl">
-              Trusted by health experts from over 80 planets
+            <h2 className="max-w-4xl text-3xl font-bold tracking-normal text-white sm:text-4xl">
+              What is Biofit Supplement?
             </h2>
             <p className="mt-6 text-xl text-gray-200 ">
               BioFit is an all-natural supplement that is known to enhance and
@@ -212,7 +212,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="overflow-hidden bg-white" id="about">
+      <div className="overflow-hidden bg-white" id="benifits">
         <div className="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <svg
             className="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
