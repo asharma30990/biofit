@@ -412,6 +412,10 @@ export default function Index() {
 
       <BiofitFAQ />
 
+      <div className="flex justify-center">
+        <img className="w-full xl:w-2/3" src="/images/founder.jpeg" alt="" />
+      </div>
+
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
           <div className="text-2xl font-black">BIOFIT OFFICIAL</div>
@@ -429,10 +433,6 @@ export default function Index() {
             Copyright © 2022 BIOFIT OFFICIAL
           </p>
         </div>
-      </div>
-
-      <div>
-        <img src="" alt="" />
       </div>
     </>
   )
