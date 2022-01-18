@@ -10,7 +10,7 @@ import BiofitIngredients from '../components/BiofitIngredients'
 export default function Index() {
   return (
     <>
-      <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto max-w-7xl sm:flex-row">
+      <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white bg-purple-800 max-w-7xl sm:flex-row">
         <div className="flex gap-4 sm:gap-8 sm:text-base">
           <div className="cursor-pointer">
             <a href="#home">Home</a>
@@ -30,7 +30,7 @@ export default function Index() {
         </div>
 
         <div className="flex gap-2">
-          <button className="p-2 px-5 text-white bg-purple-700 rounded-lg animate-bounce">
+          <button className="p-2 px-5 text-purple-700 bg-white rounded-lg animate-bounce">
             <a href="#buy-now">Buy Now</a>
           </button>
         </div>
