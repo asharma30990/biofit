@@ -16,7 +16,7 @@ export default function Index() {
             <a href="#home">Home</a>
           </div>
           <div className="cursor-pointer">
-            <a href="#video">Home</a>
+            <a href="#video">Video</a>
           </div>
           <div className="cursor-pointer">
             <a href="#about">About</a>
@@ -138,7 +138,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="pt-12 bg-purple-800 sm:pt-16" id="about">
+      <div className="pt-12 bg-purple-800 sm:pt-16" id="video">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center mx-auto text-center">
             <div className="w-full md:w-2/3">
@@ -210,7 +210,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="overflow-hidden bg-white">
+      <div className="overflow-hidden bg-white" id="about">
         <div className="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <svg
             className="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
