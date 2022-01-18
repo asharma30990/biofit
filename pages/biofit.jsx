@@ -30,8 +30,8 @@ export default function Index() {
         </div>
 
         <div className="flex gap-2">
-          <button className="p-2 px-5 text-purple-700 bg-white rounded-lg animate-bounce">
-            <a href="#buy-now">Buy Now</a>
+          <button className="p-2 px-5 font-bold tracking-wide text-purple-700 bg-white rounded-lg animate-bounce">
+            <a href="#buy-now">BUY NOW</a>
           </button>
         </div>
       </div>
