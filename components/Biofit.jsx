@@ -4,7 +4,7 @@ import { RadioGroup } from '@headlessui/react'
 import { ShieldCheckIcon } from '@heroicons/react/outline'
 
 const product = {
-  name: 'BioFit Fat Burner',
+  name: 'Select Your Discounted Package',
   href: '#',
   price: '',
   description:
@@ -98,7 +98,7 @@ export default function Biofit() {
                 className="flex-shrink-0 w-5 h-5 text-red-500"
                 aria-hidden="true"
               />
-              <p className="ml-2 text-sm text-red-500 ">
+              <p className="ml-2 text-lg text-red-500 ">
                 95% off Today + Free Shipping
               </p>
             </div>
