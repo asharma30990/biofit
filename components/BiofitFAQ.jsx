@@ -27,7 +27,7 @@ const product = {
     },
   ],
   description: `
-    <p>Our products come with a 180 Day, 100% Money Back Guarantee. That means if you change your mind about your decision at any point in the next two months – all you need to do is email us and return your order.</p>
+    <p>Our products come with a 180 Days, 100% Money Back Guarantee. That means if you change your mind about your decision at any point in the next two months – all you need to do is email us and return your order.</p>
   `,
   details: [
     {
