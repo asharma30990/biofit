@@ -414,7 +414,7 @@ export default function Index() {
 
       <div className="flex justify-center pt-10">
         <img
-          className="w-full max-w-screen-lg"
+          className="w-full max-w-screen-lg ml-[10%] "
           src="/images/founder-x.jpeg"
           alt=""
         />
