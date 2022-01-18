@@ -12,17 +12,22 @@ export default function Index() {
     <>
       <div className="container relative z-0 flex flex-col items-center justify-between gap-4 px-8 py-6 mx-auto max-w-7xl sm:flex-row">
         <div className="flex gap-4 sm:gap-8 sm:text-base">
-          <div>Home</div>
-          <div>About</div>
-          <div>Roadmap</div>
-          <div>Team</div>
-          <div>FAQs</div>
+          <div className="cursor-pointer">Home</div>
+          <div className="cursor-pointer">Video</div>
+          <div className="cursor-pointer">About</div>
+          <div className="cursor-pointer">
+            <a href="#reviews">Reviews</a>
+          </div>
+          <div className="cursor-pointer">
+            {' '}
+            <a href="#faq">FAQ</a>
+          </div>
         </div>
 
         <div className="flex gap-2">
-          <FaTwitter className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
-          <FaLinkedinIn className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
-          <FaInstagram className="w-8 h-8 p-1 text-purple-800 border-2 border-purple-800 rounded-full" />
+          <button className="p-2 px-5 text-white bg-purple-700 rounded-lg animate-bounce">
+            Buy Now
+          </button>
         </div>
       </div>
 
@@ -107,7 +112,7 @@ export default function Index() {
                   </div>
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
-                      <div className="text-xl font-medium text-red-500">
+                      <div className="text-xl font-medium text-red-500 animate-pulse">
                         95% off Today + Free Shipping! While Supplies Last!
                       </div>
                     </div>
@@ -200,10 +205,10 @@ export default function Index() {
         </div>
       </div>
 
-      <div class="bg-white overflow-hidden">
-        <div class="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="overflow-hidden bg-white">
+        <div className="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <svg
-            class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -224,7 +229,7 @@ export default function Index() {
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  className="text-gray-200"
                   fill="currentColor"
                 />
               </pattern>
@@ -236,16 +241,16 @@ export default function Index() {
             />
           </svg>
 
-          <div class="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
-            <div class="lg:col-span-1">
-              <h2 class="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
+          <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
+            <div className="lg:col-span-1">
+              <h2 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
                 Time to boost your immunity.
               </h2>
             </div>
-            <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
+            <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
               <div>
                 <dt>
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-800 text-white">
+                  <div className="flex items-center justify-center w-12 h-12 text-white bg-purple-800 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"
@@ -261,11 +266,11 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p class="mt-5 text-lg leading-6 font-medium text-gray-900">
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
                     INCREASED ENERGY
                   </p>
                 </dt>
-                <dd class="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-base text-gray-500">
                   An imbalanced gut flora is known to cause slow digestion,
                   which can reduce energy levels in the body. Restoring healthy
                   digestion and balancing your gut biome is known to increase
@@ -278,7 +283,7 @@ export default function Index() {
 
               <div>
                 <dt>
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-800 text-white">
+                  <div className="flex items-center justify-center w-12 h-12 text-white bg-purple-800 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"
@@ -294,11 +299,11 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p class="mt-5 text-lg leading-6 font-medium text-gray-900">
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
                     IMPROVED DIGESTION
                   </p>
                 </dt>
-                <dd class="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-base text-gray-500">
                   The bacteria in your gut are responsible for your digestion.
                   An imbalance in your gut flora can cause poor digestion that
                   may cause indigestion, diarrhea, constipation, and bloating.
@@ -310,7 +315,7 @@ export default function Index() {
 
               <div>
                 <dt>
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-800 text-white">
+                  <div className="flex items-center justify-center w-12 h-12 text-white bg-purple-800 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"
@@ -326,11 +331,11 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p class="mt-5 text-lg leading-6 font-medium text-gray-900">
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
                     BETTER IMMUNITY
                   </p>
                 </dt>
-                <dd class="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-base text-gray-500">
                   Believe it or not, much of your immune system is found in your
                   digestive tract. Your gut flora makes up around 75% of your
                   immune system, which is why poor digestive health can lead to
@@ -342,7 +347,7 @@ export default function Index() {
 
               <div>
                 <dt>
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-800 text-white">
+                  <div className="flex items-center justify-center w-12 h-12 text-white bg-purple-800 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"
@@ -358,11 +363,11 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p class="mt-5 text-lg leading-6 font-medium text-gray-900">
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
                     LOSE WEIGHT
                   </p>
                 </dt>
-                <dd class="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-base text-gray-500">
                   While biofit isn’t your typical weight loss supplement, the
                   science behind it is fairly straight forward. Various studies
                   have shown that a poor gut flora can significantly impact

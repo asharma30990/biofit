@@ -150,7 +150,7 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      <div className="max-w-2xl px-4 pb-16 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-2xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:items-start">
           {/* Image gallery */}
           <img className="px-10 lg:pl-0" src="/images/free.jpeg" alt="" />
