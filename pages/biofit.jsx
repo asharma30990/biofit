@@ -413,12 +413,18 @@ export default function Index() {
       <BiofitFAQ />
 
       <div className="flex justify-center pt-10">
-        <img className="w-full xl:w-2/3" src="/images/founder-x.jpeg" alt="" />
+        <img
+          className="w-full max-w-screen-lg"
+          src="/images/founder-x.jpeg"
+          alt=""
+        />
       </div>
 
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
-          <div className="text-2xl font-black">BIOFIT OFFICIAL</div>
+          <div className="text-2xl font-bold tracking-normal ">
+            BIOFIT OFFICIAL
+          </div>
           <p className="max-w-xs pt-4 text-xs">
             Is not just a token, but an entire ecosystem designed to unite the
             crypto community.
