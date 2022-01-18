@@ -154,7 +154,7 @@ export default function Example() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:items-start">
           {/* Image gallery */}
           <img
-            className="object-cover px-10 h-3/4 lg:pl-0"
+            className="object-cover w-full px-10 lg:pl-0"
             src="/images/facts.jpeg"
             alt=""
           />
