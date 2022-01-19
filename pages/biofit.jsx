@@ -454,6 +454,13 @@ export default function Index() {
             alt=""
           />
 
+          <img
+            href="#home"
+            className="h-24 mt-4 bg-white rounded-md"
+            src="/images/moneyback.jpeg"
+            alt=""
+          />
+
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
           <p className="max-w-xs pt-4 text-xs">
             Copyright © 2022 Biofit Official
