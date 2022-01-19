@@ -428,16 +428,20 @@ export default function Index() {
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
           <div className="flex flex-col gap-2 pt-4 text-sm text-center max-w-7xl">
-            <Link href="/biofit/disclaimer">
-              <a>Disclaimer</a>
-            </Link>
-
             <Link href="/biofit/privacy-policy">
               <a>Privacy Policy</a>
             </Link>
 
             <Link href="/biofit/terms-of-service">
               <a>Terms of Service</a>
+            </Link>
+
+            <Link href="/biofit/disclaimer">
+              <a>Disclaimer</a>
+            </Link>
+
+            <Link href="/biofit/contact">
+              <a>Contact</a>
             </Link>
           </div>
 
