@@ -182,6 +182,7 @@ export default function Biofit() {
 
               <div className="mt-10">
                 <Link
+                  prefetch={false}
                   passHref={true}
                   href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404"
                 >
