@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { useState } from 'react'
 import { CheckIcon, StarIcon } from '@heroicons/react/solid'
 import { RadioGroup } from '@headlessui/react'
