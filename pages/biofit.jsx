@@ -206,11 +206,10 @@ export default function Index() {
               <br />
               <br />
               <div className="mt-4 mb-2 animate-bounce">
-                <Link
-                  className="p-2 px-5 text-black bg-white rounded-2xl"
-                  href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404"
-                >
-                  Watch this video to know more!
+                <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
+                  <a className="p-2 px-5 text-black bg-white rounded-2xl">
+                    Watch this video to know more!
+                  </a>
                 </Link>
               </div>
             </p>
