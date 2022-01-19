@@ -47,8 +47,6 @@ function classNames(...classes) {
 export default function Biofit() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[0])
 
-  console.log(selectedSize)
-
   return (
     <div className="bg-white " id="buy-now">
       <div className="max-w-2xl px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
