@@ -440,6 +440,10 @@ export default function Index() {
               <a>Disclaimer</a>
             </Link>
 
+            <Link href="/biofit/returns-and-refunds">
+              <a>Return & Refunds</a>
+            </Link>
+
             <Link href="/biofit/contact">
               <a>Contact</a>
             </Link>
