@@ -132,7 +132,11 @@ export default function Index() {
                 </blockquote>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="relative mt-12 sm:mt-16 lg:mt-0">
+              <div className="absolute z-10 p-8 text-white -translate-x-1/2 bg-blue-500 left-1/2 bottom-5">
+                {'Get it now!'}
+              </div>
+
               <div className="pl-4 -mr-48 sm:pl-6 md:ml-48 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full sm:w-3/5 md:w-3/5 rounded-xl lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
@@ -186,12 +190,12 @@ export default function Index() {
               <br />
               <br />
               <div className="mt-4 mb-2 animate-bounce">
-                <a
-                  className="p-2 px-5 text-black bg-white rounded-2xl "
+                <Link
+                  className="p-2 px-5 text-black bg-white rounded-2xl"
                   href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404"
                 >
                   Watch this video to know more!
-                </a>
+                </Link>
               </div>
             </p>
           </div>
