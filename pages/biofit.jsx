@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player'
 
-import { FaTwitter, FaLinkedinIn, FaInstagram, FaDiscord } from 'react-icons/fa'
+import Link from 'next/link'
 
 import Biofit from '../components/Biofit'
 import BiofitReviews from '../components/BiofitReviews'
@@ -423,15 +423,25 @@ export default function Index() {
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
           <div className="flex flex-col gap-2 pt-4 text-sm text-center max-w-7xl">
-            <a href="/biofit/disclaimer">Disclaimer</a>
-            <a href="/biofit/privacy-policy">Privacy Policy</a>
-            <a href="/biofit/terms-of-service">Terms of Service</a>
+            <Link href="/biofit/disclaimer">
+              <a>Disclaimer</a>
+            </Link>
+
+            <Link href="/biofit/privacy-policy">
+              <a>Privacy Policy</a>
+            </Link>
+
+            <Link href="/biofit/terms-of-service">
+              <a>Terms of Service</a>
+            </Link>
           </div>
+
           <div className="flex gap-2 pt-8">
             <button className="p-2 px-5 font-bold tracking-wide text-purple-700 bg-white rounded-lg animate-bounce">
               <a href="#buy-now">BUY NOW</a>
             </button>
           </div>
+
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
           <p className="max-w-xs pt-4 text-xs">
             Copyright © 2022 Biofit Official
