@@ -6,10 +6,26 @@ import Biofit from '../components/Biofit'
 import BiofitReviews from '../components/BiofitReviews'
 import BiofitFAQ from '../components/BiofitFAQ'
 import BiofitIngredients from '../components/BiofitIngredients'
+import { useState } from 'react'
 
 export default function Index() {
+  const [banner, setBanner] = useState(true)
+
+  const closeBanner = () => {
+    setBanner(false)
+  }
+
   return (
     <>
+      <div
+        onClick={closeBanner}
+        className={`fixed top-0 left-0 z-10 flex items-center justify-center w-screen h-screen bg-black bg-opacity-50 ${
+          banner ? 'fixed' : 'hidden'
+        }`}
+      >
+        <img className="w-full max-w-xl p-4" src="/images/banner.jpeg" alt="" />
+      </div>
+
       <div className="bg-purple-800">
         <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white max-w-7xl sm:flex-row">
           <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
