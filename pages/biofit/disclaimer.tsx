@@ -1,10 +1,12 @@
+import Link from 'next/link'
+
 const index = () => {
   return (
     <>
       <div className="mx-auto prose px-[5%] max-w-7xl pt-12 leading-5 text-xl">
-        <a className="" href="/biofit">
-          Back
-        </a>
+        <Link href="/biofit">
+          <a>Back</a>
+        </Link>
       </div>
 
       <div className="mx-auto prose px-[5%] max-w-7xl py-12 leading-5">
