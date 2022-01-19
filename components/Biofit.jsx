@@ -18,19 +18,19 @@ const product = {
       name: '6 Bottles @ $39/each',
       description: 'Best Value! You save $660!',
       imageSrc: '/images/product-six.png',
-      payment: '',
+      payment: 'https://veroxyle.com',
     },
     {
       name: '3 Bottles @ $49/each',
       description: 'Good value. You save $300!',
       imageSrc: '/images/product-three.png',
-      payment: '',
+      payment: 'https://nrjdalal.com',
     },
     {
       name: '1 Bottle @ $68.99',
       description: '$59 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
-      payment: '',
+      payment: 'https://google.com',
     },
   ],
 }
@@ -181,7 +181,7 @@ export default function Biofit() {
               </div>
 
               <div className="mt-10">
-                <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
+                <Link href={selectedSize.payment}>
                   <a className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce">
                     Buy Now
                   </a>
