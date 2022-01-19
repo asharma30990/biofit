@@ -10,187 +10,315 @@ const index = () => {
       </div>
 
       <div className="mx-auto prose px-[5%] max-w-7xl py-12 leading-5">
-        <h1>Privacy Policy</h1>
-        <p>
-          At Biofit Supplement, accessible from Biofit Supplement, one of our
-          main priorities is the privacy of our visitors. This Privacy Policy
-          document contains types of information that is collected and recorded
-          by Biofit Supplement and how we use it.
-          <br />
-          <br />
-          If you have additional questions or require more information about our
-          Privacy Policy, do not hesitate to contact us.
-          <br />
-          <br />
-          This Privacy Policy applies only to our online activities and is valid
-          for visitors to our website with regards to the information that they
-          shared and/or collect in Biofit Supplement. This policy is not
-          applicable to any information collected offline or via channels other
-          than this website. Our Privacy Policy was created with the help of the
-          Privacy Policy Generator and the Free Privacy Policy Generator.
-        </p>
+        <div>
+          <div>
+            <h1>Privacy Policy</h1>
+            <h2>Date Effective: January, 2020</h2>
+          </div>
+        </div>
+        <div>
+          <p>
+            The following Privacy Policy governs the online information
+            collection practices of Biofit ("we" or "us"). Specifically, it
+            outlines the types of information that we gather about you while you
+            are using the <a href="/">Biofit</a> website (the "Site"), and the
+            ways in which we use this information. This Privacy Policy,
+            including our children's privacy statement, does not apply to any
+            information you may provide to us or that we may collect offline
+            and/or through other means (for example, at a live event, via
+            telephone, or through the mail).
+          </p>
+          <p>
+            Please read this Privacy Policy carefully. By visiting and using the
+            Site, you agree that your use of our Site, and any dispute over
+            privacy, is governed by this Privacy Policy. Because the Web is an
+            evolving medium, we may need to change our Privacy Policy at some
+            point in the future, in which case we'll post the changes to this
+            Privacy Policy on this website and update the Effective Date of the
+            policy to reflect the date of the changes. By continuing to use the
+            Site after we post any such changes, you accept the Privacy Policy
+            as modified.
+          </p>
+          <h2>How We Collect and Use Information</h2>
+          <p>
+            We may collect and store personal or other information that you
+            voluntarily supply to us online while using the Site (e.g., while on
+            the Site or in responding via email to a feature provided on the
+            Site). The Site only contacts individuals who specifically request
+            that we do so or in the event that they have signed up to receive
+            our messaging, attended one of our events, or have purchased one of
+            our products. The Site collects personally identifying information
+            from our users during online registration and online purchasing.
+            Generally, this information includes name and e-mail address for
+            registration or opt-in purposes and name, postal address, and credit
+            card information when registering for our events or purchasing our
+            products. All of this information is provided to us by you.
+          </p>
+          <p>
+            We also collect and store information that is generated
+            automatically as you navigate online through the Site. For example,
+            we may collect information about your computer's connection to the
+            Internet, which allows us, among other things, to improve the
+            delivery of our web pages to you and to measure traffic on the Site.
+            We also may use a standard feature found in browser software called
+            a "cookie" to enhance your experience with the Site. Cookies are
+            small files that your web browser places on your hard drive for
+            record-keeping purposes. By showing how and when visitors use the
+            Site, cookies help us deliver advertisements, identify how many
+            unique users visit us, and track user trends and patterns. They also
+            prevent you from having to re-enter your preferences on certain
+            areas of the Site where you may have entered preference information
+            before. The Site also may use web beacons (single-pixel graphic
+            files also known as "transparent GIFs") to access cookies and to
+            count users who visit the Site or open HTML-formatted email
+            messages.
+          </p>
+          <p>
+            We use the information we collect from you while you are using the
+            Site in a variety of ways, including using the information to
+            customize features; advertising that appear on the Site; and, making
+            other offers available to you via email, direct mail or otherwise.
+            We also may provide your information to third parties, such as
+            service providers, contractors and third-party publishers and
+            advertisers for a variety of purposes. Unless you inform us in
+            accordance with the process described below, we reserve the right to
+            use, and to disclose to third parties, all of the information
+            collected from and about you while you are using the Site in any way
+            and for any purpose, such as to enable us or a third party to
+            provide you with information about products and services. If you do
+            not wish your information to be used for these purposes, you must
+            send a letter to the Online Privacy Coordinator whose address is
+            listed at the end of this Privacy Policy requesting to be taken off
+            any lists of information that may be used for these purposes or that
+            may be given or sold to third-parties.
+          </p>
+          <p>
+            Please keep in mind that whenever you voluntarily make your personal
+            information available for viewing by third parties online - for
+            example on message boards, web logs, through email, or in chat areas
+            - that information can be seen, collected and used by others besides
+            us. We cannot be responsible for any unauthorized third-party use of
+            such information.
+          </p>
+          <p>
+            Some of our third-party advertisers and ad servers that place and
+            present advertising on the Site also may collect information from
+            you via cookies, web beacons or similar technologies. These
+            third-party advertisers and ad servers may use the information they
+            collect to help present their advertisements, to help measure and
+            research the advertisements' effectiveness, or for other purposes.
+            The use and collection of your information by these third-party
+            advertisers and ad servers is governed by the relevant third-party's
+            privacy policy and is not covered by our Privacy Policy. Indeed, the
+            privacy policies of these third-party advertisers and ad servers may
+            be different from ours. If you have any concerns about a third
+            party's use of cookies or web beacons or use of your information,
+            you should visit that party's website and review its privacy policy.
+          </p>
+          <p>
+            The Site also includes links to other websites and provides access
+            to products and services offered by third parties, whose privacy
+            policies we do not control. When you access another website or
+            purchase third-party products or services through the Site, use of
+            any information you provide is governed by the privacy policy of the
+            operator of the site you are visiting or the provider of such
+            products or services.
+          </p>
+          <p>
+            We may also make some content, products and services available
+            through our Site or by emailing messages to you through cooperative
+            relationships with third-party providers, where the brands of our
+            provider partner appear on the Site in connection with such content,
+            products and/or services. We may share with our provider partner any
+            information you provide, or that is collected, in the course of
+            visiting any pages that are made available in cooperation with our
+            provider partner. In some cases, the provider partner may collect
+            information from you directly, in which cases the privacy policy of
+            our provider partner may apply to the provider partner's use of your
+            information. The privacy policy of our provider partners may differ
+            from ours. If you have any questions regarding the privacy policy of
+            one of our provider partners, you should contact the provider
+            partner directly for more information.
+          </p>
+          <p>
+            Be aware that we may occasionally release information about our
+            visitors when release is appropriate to comply with law or to
+            protect the rights, property or safety of users of the Site or the
+            public.
+          </p>
+          <p>
+            Please also note that as our business grows, we may buy or sell
+            various assets. In the unlikely event that we sell some or all of
+            our assets, or one or more of our websites is acquired by another
+            company, information about our users may be among the transferred
+            assets.
+          </p>
+          <h2>Google Analytics</h2>
+          <p>
+            We also use Google Analytics Advertiser Features to optimize our
+            business. Advertiser features include:
+          </p>
+          <ul>
+            <li>Remarketing with Google Analytics</li>
+            <li>Google Display Network Impression Reporting</li>
+            <li>DoubleClick Platform integrations</li>
+            <li>Google Analytics Demographics and Interest Reporting</li>
+          </ul>
+          <p>
+            By enabling these Google Analytics Display features, we are required
+            to notify our visitors by disclosing the use of these features and
+            that we and third-party vendors use first-party cookies (such as the
+            Google Analytics cookie) or other first-party identifiers, and
+            third-party cookies (such as the DoubleClick cookie) or other
+            third-party identifiers together to gather data about your
+            activities on our Site. Among other uses, this allows us to contact
+            you if you begin to fill out our check-out form but abandon it
+            before completion with an email reminding you to complete your
+            order. The “Remarketing” feature allows us to reach people who
+            previously visited our Site, and match the right audience with the
+            right advertising message.
+          </p>
+          <p>
+            You can opt out of Google’s use of cookies by visiting Google’s ad
+            settings and/or you may opt out of a third-party vendor's use of
+            cookies by visiting the{' '}
+            <a>Network Advertising Initiative opt-out page.</a>
+          </p>
+          <h2>Facebook</h2>
+          <p>
+            As advertisers on Facebook and through our Facebook page, we, (not
+            Facebook) may collect content or information from a Facebook user
+            and such information may be used in the same manner specified in
+            this Privacy Policy. You consent to our collection of such
+            information.
+          </p>
+          <p>We abide by Facebook’s Data Use Restrictions.</p>
+          <ul>
+            <li>
+              Any ad data collected, received or derived from our Facebook ad
+              (“Facebook advertising data”) is only shared with someone acting
+              on our behalf, such as our service provider. We are responsible
+              for ensuring that our service providers protect any Facebook
+              advertising data or any other information obtained from us, limit
+              our use of all of that information, and keep it confidential and
+              secure.
+            </li>
+            <li>
+              We do not use Facebook advertising data for any purpose (including
+              retargeting, commingling data across multiple advertisers’
+              campaigns, or allowing piggybacking or redirecting with tags),
+              except on an aggregate and anonymous basis (unless authorized by
+              Facebook) and only to assess the performance and effectiveness of
+              our Facebook advertising campaigns.
+            </li>
+            <li>
+              We do not use Facebook advertising data, including the targeting
+              criteria for a Facebook ad, to build, append to, edit, influence,
+              or augment user profiles, including profiles associated with any
+              mobile device identifier or other unique identifier that
+              identifies any particular user, browser, computer or device.
+            </li>
+            <li>
+              We do not transfer any Facebook advertising data (including
+              anonymous, aggregate, or derived data) to any ad network, ad
+              exchange, data broker or other advertising or monetization related
+              service.
+            </li>
+          </ul>
+          <h2>General Data Privacy Regulation (GDPR)</h2>
+          <p>
+            The GDPR took effect on May 25, 2018, and is intended to protect the
+            data of European Union (EU) citizens.
+          </p>
+          <p>
+            As a company that markets its site, content, products and/or
+            services online we do not specifically target our marketing to the
+            EU or conduct business in or to the EU in any meaningful way. If the
+            data that you provide to us in the course of your use of our site,
+            content, products and/or services is governed by GDPR, we will abide
+            by the relevant portions of the Regulation.
+          </p>
+          <p>
+            If you are a resident of the European Economic Area (EEA), or are
+            accessing this site from within the EEA, you may have the right to
+            request: access to, correction of, deletion of; portability of; and
+            restriction or objection to processing, of your personal data, from
+            us. This includes the “right to be forgotten.”
+          </p>
+          <p>
+            To make any of these requests, please contact our GDPR contact at{' '}
+            <a href="mailto:gdpr@goBiofit.com">gdpr@goBiofit.com</a>
+          </p>
 
-        <h2>Consent</h2>
-        <p>
-          By using our website, you hereby consent to our Privacy Policy and
-          agree to its terms.
-        </p>
-
-        <h2>Information we collect</h2>
-        <p>
-          The personal information that you are asked to provide, and the
-          reasons why you are asked to provide it, will be made clear to you at
-          the point we ask you to provide your personal information.
-          <br />
-          <br />
-          If you contact us directly, we may receive additional information
-          about you such as your name, email address, phone number, the contents
-          of the message and/or attachments you may send us, and any other
-          information you may choose to provide.
-          <br />
-          <br />
-          When you register for an Account, we may ask for your contact
-          information, including items such as name, company name, address,
-          email address, and telephone number.
-        </p>
-
-        <h2>How we use your information</h2>
-        <p>
-          We use the information we collect in various ways, including to:
-          <br />
-          <br />
-          Provide, operate, and maintain our webste
-          <br />
-          <br />
-          Improve, personalize, and expand our webste
-          <br />
-          <br />
-          Understand and analyze how you use our webste
-          <br />
-          <br />
-          Develop new products, services, features, and functionality
-          <br />
-          <br />
-          Communicate with you, either directly or through one of our partners,
-          including for customer service, to provide you with updates and other
-          information relating to the webste, and for marketing and promotional
-          purposes
-          <br />
-          <br />
-          Send you emails
-          <br />
-          <br />
-          Find and prevent fraud
-          <br />
-          <br />
-          Log Files
-          <br /> <br />
-          Biofit Supplement follows a standard procedure of using log files.
-          These files log visitors when they visit websites. All hosting
-          companies do this and a part of hosting services' analytics. The
-          information collected by log files include internet protocol (IP)
-          addresses, browser type, Internet Service Provider (ISP), date and
-          time stamp, referring/exit pages, and possibly the number of clicks.
-          These are not linked to any information that is personally
-          identifiable. The purpose of the information is for analyzing trends,
-          administering the site, tracking users' movement on the website, and
-          gathering demographic information.
-        </p>
-
-        <h2>Advertising Partners Privacy Policies</h2>
-        <p>
-          You may consult this list to find the Privacy Policy for each of the
-          advertising partners of Biofit Supplement.
-          <br /> <br />
-          Third-party ad servers or ad networks uses technologies like cookies,
-          JavaScript, or Web Beacons that are used in their respective
-          advertisements and links that appear on Biofit Supplement, which are
-          sent directly to users' browser. They automatically receive your IP
-          address when this occurs. These technologies are used to measure the
-          effectiveness of their advertising campaigns and/or to personalize the
-          advertising content that you see on websites that you visit.
-          <br /> <br />
-          Note that Biofit Supplement has no access to or control over these
-          cookies that are used by third-party advertisers.
-        </p>
-
-        <h2>Third Party Privacy Policies</h2>
-        <p>
-          Biofit Supplement's Privacy Policy does not apply to other advertisers
-          or websites. Thus, we are advising you to consult the respective
-          Privacy Policies of these third-party ad servers for more detailed
-          information. It may include their practices and instructions about how
-          to opt-out of certain options.
-          <br /> <br />
-          You can choose to disable cookies through your individual browser
-          options. To know more detailed information about cookie management
-          with specific web browsers, it can be found at the browsers'
-          respective websites.
-        </p>
-
-        <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
-        <p>
-          Under the CCPA, among other rights, California consumers have the
-          right to:
-          <br /> <br />
-          Request that a business that collects a consumer's personal data
-          disclose the categories and specific pieces of personal data that a
-          business has collected about consumers.
-          <br /> <br />
-          Request that a business delete any personal data about the consumer
-          that a business has collected.
-          <br /> <br />
-          Request that a business that sells a consumer's personal data, not
-          sell the consumer's personal data.
-          <br /> <br />
-          If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please contact us.
-        </p>
-
-        <h2>GDPR Data Protection Rights</h2>
-        <p>
-          We would like to make sure you are fully aware of all of your data
-          protection rights. Every user is entitled to the following:
-          <br /> <br />
-          The right to access – You have the right to request copies of your
-          personal data. We may charge you a small fee for this service.
-          <br /> <br />
-          The right to rectification – You have the right to request that we
-          correct any information you believe is inaccurate. You also have the
-          right to request that we complete the information you believe is
-          incomplete.
-          <br /> <br />
-          The right to erasure – You have the right to request that we erase
-          your personal data, under certain conditions.
-          <br /> <br />
-          The right to restrict processing – You have the right to request that
-          we restrict the processing of your personal data, under certain
-          conditions.
-          <br /> <br />
-          The right to object to processing – You have the right to object to
-          our processing of your personal data, under certain conditions.
-          <br /> <br />
-          The right to data portability – You have the right to request that we
-          transfer the data that we have collected to another organization, or
-          directly to you, under certain conditions.
-          <br /> <br />
-          If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please contact us.
-        </p>
-
-        <h2>Children's Information</h2>
-        <p>
-          Another part of our priority is adding protection for children while
-          using the internet. We encourage parents and guardians to observe,
-          participate in, and/or monitor and guide their online activity.
-          <br />
-          <br />
-          Biofit Supplement does not knowingly collect any Personal Identifiable
-          Information from children under the age of 13. If you think that your
-          child provided this kind of information on our website, we highly
-          encourage you to contact us immediately and we will do our best
-          efforts to promptly remove such information from our records.
-        </p>
+          <h2>Children's Privacy Statement</h2>
+          <p>
+            This children's privacy statement explains our practices with
+            respect to the online collection and use of personal information
+            from children under the age of thirteen, and provides important
+            information regarding their rights under federal law with respect to
+            such information.
+          </p>
+          <ul>
+            <li>
+              This Site is not directed to children under the age of thirteen
+              and we do NOT knowingly collect personally identifiable
+              information from children under the age of thirteen as part of the
+              Site. We screen users who wish to provide personal information in
+              order to prevent users under the age of thirteen from providing
+              such information. If we become aware that we have inadvertently
+              received personally identifiable information from a user under the
+              age of thirteen as part of the Site, we will delete such
+              information from our records. If we change our practices in the
+              future, we will obtain prior, verifiable parental consent before
+              collecting any personally identifiable information from children
+              under the age of thirteen as part of the Site.
+            </li>
+            <li>
+              Because we do not collect any personally identifiable information
+              from children under the age of thirteen as part of the Site, we
+              also do NOT knowingly distribute such information to third
+              parties.{' '}
+            </li>
+            <li>
+              We do NOT knowingly allow children under the age of thirteen to
+              publicly post or otherwise distribute personally identifiable
+              contact information through the Site.{' '}
+            </li>
+            <li>
+              Because we do not collect any personally identifiable information
+              from children under the age of thirteen as part of the Site, we do
+              NOT condition the participation of a child under thirteen in the
+              Site's online activities on providing personally identifiable
+              information.
+            </li>
+          </ul>
+          <h2>How do we store your information?</h2>
+          <p>
+            Your information is stored at the list server that delivers the Site
+            content and messaging. Your information can only be accessed by
+            those who help manage those lists in order to deliver e-mail to
+            those who would like to receive the Site material.
+          </p>
+          <p>
+            All of the messaging or emails that are sent to you by the Site
+            include an unsubscribe link in them. You can remove yourself at any
+            time from our mailing list by clicking on the unsubscribe link that
+            can be found in every communication that we send you.
+          </p>
+          <h2>Disclaimer</h2>
+          <p>
+            This policy may be changed at any time at our discretion. If we
+            should update this policy, we will post the updates to this page on
+            our Website.
+          </p>
+          <p>
+            If you have any questions or concerns regarding our privacy policy
+            please direct them to:
+          </p>
+          <p>
+            <a href="mailto:support@goBiofit.com">support@goBiofit.com</a>
+          </p>
+        </div>
       </div>
     </>
   )
