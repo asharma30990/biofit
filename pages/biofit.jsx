@@ -425,7 +425,6 @@ export default function Index() {
           <div className="flex flex-col gap-2 pt-4 text-sm text-center max-w-7xl">
             <a href="/biofit/disclaimer">Disclaimer</a>
             <a href="/biofit/privacy-policy">Privacy Policy</a>
-            {/* <a href="/biofit/return-policy">Return Policy</a> */}
             <a href="/biofit/terms-of-service">Terms of Service</a>
           </div>
           <div className="flex gap-2 pt-8">
@@ -435,7 +434,7 @@ export default function Index() {
           </div>
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
           <p className="max-w-xs pt-4 text-xs">
-            Copyright © 2022 BIOFIT OFFICIAL
+            Copyright © 2022 Biofit Official
           </p>
         </div>
       </div>
