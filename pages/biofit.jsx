@@ -422,17 +422,41 @@ export default function Index() {
 
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
-          <div className="text-2xl font-bold tracking-normal ">
-            BIOFIT OFFICIAL
+          <div className="w-full text-2xl font-bold tracking-normal text-left">
+            TERMS OF SALE
           </div>
-          <p className="max-w-xs pt-4 text-xs">
-            Is not just a token, but an entire ecosystem designed to unite the
-            crypto community.
+          <p className="pt-4 text-sm text-left max-w-7xl">
+            Your purchase will appear on your statement under the name
+            "CLKBANK*1 866 450 0608". <br />
+            ClickBank will allow for the return or replacement of any product
+            within 180 days from the date of purchase. For more details see our
+            <span className="text-base font-bold underline">
+              {' '}
+              return policy
+            </span>
+            . <br />
+            The geographic location of your computer has been determined and
+            recorded. All attempts at fraud will be prosecuted. <br />
+            Information submitted in conjunction with this order is handled
+            within the constraints of our{' '}
+            <span className="text-base font-bold underline">
+              {' '}
+              privacy policy
+            </span>
+            . <br />
+            By entering your e-mail address above, you consent to ClickBank
+            sharing that information with the vendor and/or affiliate related to
+            this product, for order fulfillment and marketing purposes. <br />
+            The ClickBank Marketplace is not a chartered bank or trust company,
+            or depository institution. <br />
+            The ClickBank Marketplace is not authorized to accept deposits or
+            trust accounts and is not licensed or regulated by any state or
+            federal banking authority.
           </p>
-          <div className="flex gap-2 pt-4">
-            <FaTwitter className="w-8 h-8 p-1 border-2 border-white rounded-full" />
-            <FaLinkedinIn className="w-8 h-8 p-1 border-2 border-white rounded-full" />
-            <FaInstagram className="w-8 h-8 p-1 border-2 border-white rounded-full" />
+          <div className="flex gap-2 pt-8">
+            <button className="p-2 px-5 font-bold tracking-wide text-purple-700 bg-white rounded-lg animate-bounce">
+              <a href="#buy-now">BUY NOW</a>
+            </button>
           </div>
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
           <p className="max-w-xs pt-4 text-xs">
