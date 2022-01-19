@@ -183,7 +183,9 @@ export default function Biofit() {
                   type="submit"
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce"
                 >
-                  Buy Now
+                  <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
+                    <a>Buy Now</a>
+                  </Link>
                 </button>
               </div>
               <div className="mt-6 text-center">
