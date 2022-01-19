@@ -16,16 +16,19 @@ const product = {
       name: '6 Bottles @ $49/each',
       description: 'Best Value! You save $600!',
       imageSrc: '/images/product-six.png',
+      payment: '',
     },
     {
       name: '3 Bottles @ $59/each',
       description: 'Good value. You save $270!',
       imageSrc: '/images/product-three.png',
+      payment: '',
     },
     {
       name: '1 Bottle @ $78.99',
       description: '$69 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
+      payment: '',
     },
   ],
 }
