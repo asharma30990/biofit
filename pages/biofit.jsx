@@ -447,6 +447,13 @@ export default function Index() {
             </button>
           </div>
 
+          <img
+            href="#home"
+            className="h-12 p-2 px-4 mt-4 bg-white rounded-md"
+            src="/images/payments.jpeg"
+            alt=""
+          />
+
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
           <p className="max-w-xs pt-4 text-xs">
             Copyright © 2022 Biofit Official
