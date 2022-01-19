@@ -133,9 +133,9 @@ export default function Index() {
               </div>
             </div>
             <div className="relative mt-12 sm:mt-16 lg:mt-0">
-              <div className="absolute z-10 p-8 text-white -translate-x-1/2 bg-blue-500 left-1/2 bottom-5">
+              {/* <div className="absolute z-10 p-8 text-white -translate-x-1/2 bg-blue-500 left-1/2 bottom-5">
                 {'Get it now!'}
-              </div>
+              </div> */}
 
               <div className="pl-4 -mr-48 sm:pl-6 md:ml-48 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
