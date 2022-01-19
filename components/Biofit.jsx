@@ -181,14 +181,14 @@ export default function Biofit() {
               </div>
 
               <div className="mt-10">
-                <button
-                  type="submit"
-                  className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce"
-                >
-                  <a href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
+                <a href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
+                  <button
+                    type="submit"
+                    className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce"
+                  >
                     Buy Now
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
               <div className="mt-6 text-center">
                 <a href="#" className="inline-flex text-base font-medium group">
