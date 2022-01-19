@@ -128,77 +128,76 @@ export default function Biofit() {
               Product options
             </h2>
 
-            <form>
-              <div className="sm:flex sm:justify-between">
-                {/* Size selector */}
-                <RadioGroup value={selectedSize} onChange={setSelectedSize}>
-                  <RadioGroup.Label className="block pb-3 font-medium text-gray-700 text-md">
-                    Size
-                  </RadioGroup.Label>
-                  <div className="grid grid-cols-1 gap-4 mt-1 sm:grid-cols-2">
-                    {product.sizes.map((size) => (
-                      <RadioGroup.Option
-                        as="div"
-                        key={size.name}
-                        value={size}
-                        className={({ active }) =>
-                          classNames(
-                            active ? 'ring-2 ring-purple-500' : '',
-                            'relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none'
-                          )
-                        }
-                      >
-                        {({ active, checked }) => (
-                          <>
-                            <RadioGroup.Label
-                              as="p"
-                              className="text-base font-medium text-gray-900"
-                            >
-                              {size.name}
-                            </RadioGroup.Label>
-                            <RadioGroup.Description
-                              as="p"
-                              className="mt-1 text-sm text-gray-500"
-                            >
-                              {size.description}
-                            </RadioGroup.Description>
-                            <div
-                              className={classNames(
-                                active ? 'border' : 'border-2',
-                                checked
-                                  ? 'border-purple-500'
-                                  : 'border-transparent',
-                                'absolute -inset-px rounded-lg pointer-events-none'
-                              )}
-                              aria-hidden="true"
-                            />
-                          </>
-                        )}
-                      </RadioGroup.Option>
-                    ))}
-                  </div>
-                </RadioGroup>
-              </div>
+            <div className="sm:flex sm:justify-between">
+              {/* Size selector */}
+              <RadioGroup value={selectedSize} onChange={setSelectedSize}>
+                <RadioGroup.Label className="block pb-3 font-medium text-gray-700 text-md">
+                  Size
+                </RadioGroup.Label>
+                {/* <div className="grid grid-cols-1 gap-4 mt-1 sm:grid-cols-2"> */}
+                <div className="flex flex-wrap justify-between w-full gap-y-4">
+                  {product.sizes.map((size) => (
+                    <RadioGroup.Option
+                      as="div"
+                      key={size.name}
+                      value={size}
+                      className={({ active }) =>
+                        classNames(
+                          active ? 'ring-2 ring-purple-500' : '',
+                          'relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none w-full sm:w-[48.5%] text-center'
+                        )
+                      }
+                    >
+                      {({ active, checked }) => (
+                        <>
+                          <RadioGroup.Label
+                            as="p"
+                            className="text-base font-medium text-gray-900"
+                          >
+                            {size.name}
+                          </RadioGroup.Label>
+                          <RadioGroup.Description
+                            as="p"
+                            className="mt-1 text-sm text-gray-500"
+                          >
+                            {size.description}
+                          </RadioGroup.Description>
+                          <div
+                            className={classNames(
+                              active ? 'border' : 'border-2',
+                              checked
+                                ? 'border-purple-500'
+                                : 'border-transparent',
+                              'absolute -inset-px rounded-lg pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </RadioGroup.Option>
+                  ))}
+                </div>
+              </RadioGroup>
+            </div>
 
-              <div className="mt-10">
-                <Link href={selectedSize.payment}>
-                  <a className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce">
-                    Buy Now
-                  </a>
-                </Link>
-              </div>
-              <div className="mt-6 text-center">
-                <a className="inline-flex text-base font-medium group">
-                  <ShieldCheckIcon
-                    className="flex-shrink-0 w-6 h-6 mr-2 text-gray-400 group-hover:text-gray-500"
-                    aria-hidden="true"
-                  />
-                  <span className="text-gray-500 hover:text-gray-700">
-                    180 Days Moneyback Guarantee
-                  </span>
+            <div className="mt-10">
+              <Link href={selectedSize.payment}>
+                <a className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-purple-600 border border-transparent rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-purple-500 animate-bounce">
+                  Buy Now
                 </a>
-              </div>
-            </form>
+              </Link>
+            </div>
+            <div className="mt-6 text-center">
+              <a className="inline-flex text-base font-medium group">
+                <ShieldCheckIcon
+                  className="flex-shrink-0 w-6 h-6 mr-2 text-gray-400 group-hover:text-gray-500"
+                  aria-hidden="true"
+                />
+                <span className="text-gray-500 hover:text-gray-700">
+                  180 Days Moneyback Guarantee
+                </span>
+              </a>
+            </div>
           </section>
         </div>
       </div>
