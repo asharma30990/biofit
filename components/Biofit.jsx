@@ -19,21 +19,21 @@ const product = {
       description: 'Best Value! You save $660!',
       imageSrc: '/images/product-six.png',
       payment:
-        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF6-234&cbskin=32234&cbfid=48638&cbexit=2127&_ga=2.143450365.938138779.1642520439-27158438.1642520439',
+        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF6-234&cbskin=32234&cbfid=48638&cbexit=2127&hop=aarti404',
     },
     {
       name: '3 Bottles @ $49/each',
       description: 'Good value. You save $300!',
       imageSrc: '/images/product-three.png',
       payment:
-        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF3-147&cbskin=32235&cbfid=48637&cbexit=2127&_ga=2.152964209.938138779.1642520439-27158438.1642520439',
+        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF3-147&cbskin=32235&cbfid=48637&cbexit=2127&hop=aarti404',
     },
     {
       name: '1 Bottle @ $68.99',
       description: '$59 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
       payment:
-        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF1-059&cbskin=32236&cbfid=48636&cbexit=2127&_ga=2.143450365.938138779.1642520439-27158438.1642520439',
+        'https://biofitsupp.pay.clickbank.net/?cbitems=1-BF1-059&cbskin=32236&cbfid=48636&cbexit=2127&hop=aarti404',
     },
   ],
 }
