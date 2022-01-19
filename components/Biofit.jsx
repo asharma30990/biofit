@@ -23,7 +23,7 @@ const product = {
       imageSrc: '/images/product-three.png',
     },
     {
-      name: '1 Bottle @ $78.99/each',
+      name: '1 Bottle @ $78.99',
       description: '$69 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
     },
