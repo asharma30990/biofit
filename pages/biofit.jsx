@@ -169,12 +169,11 @@ export default function Index() {
             </div>
             <div className="relative mt-12 sm:mt-16 lg:mt-0">
               <div
-                className={`absolute shadow-lg z-10 p-4 text-white font-bold -translate-x-1/2 bg-blue-500 left-1/2 w-fit -bottom-10 flex-row justify-center items-center text-center rounded-xl ${
+                className={`absolute shadow-lg z-10 p-4 text-white font-bold -translate-x-1/2 bg-blue-500 left-1/2 w-fit -bottom-10 flex-col lg:flex-row justify-center items-center text-center rounded-xl ${
                   banner ? 'hidden' : 'flex'
                 }`}
               >
-                Hurry Up! <br />
-                The offer expires in <br />
+                Hurry Up! The offer expires in&nbsp;
                 <Countdown
                   className={`${banner ? 'hidden' : 'flex'}`}
                   date={Date.now() + 30 * 60 * 1000}
