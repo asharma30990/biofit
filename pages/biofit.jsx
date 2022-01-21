@@ -169,7 +169,7 @@ export default function Index() {
             </div>
             <div className="relative mt-12 sm:mt-16 lg:mt-0">
               <div
-                className={`absolute shadow-lg z-10 p-4 text-white font-bold -translate-x-1/2 lg:transform-none bg-blue-500 left-1/2 lg:left-0 bottom-20 flex-col justify-center items-center text-center rounded-xl ${
+                className={`absolute shadow-lg z-10 p-4 text-white font-bold -translate-x-1/2 bg-blue-500 left-1/2 w-fit -bottom-10 flex-row justify-center items-center text-center rounded-xl ${
                   banner ? 'hidden' : 'flex'
                 }`}
               >
