@@ -1,18 +1,37 @@
-import ReactPlayer from 'react-player'
-
 import Link from 'next/link'
 
 import Biofit from '../components/Biofit'
 import BiofitReviews from '../components/BiofitReviews'
 import BiofitFAQ from '../components/BiofitFAQ'
 import BiofitIngredients from '../components/BiofitIngredients'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import Countdown from 'react-countdown'
 
 export default function Index() {
   const [banner, setBanner] = useState(true)
 
   const closeBanner = () => {
     setBanner(false)
+  }
+
+  // useEffect(() => {
+  //   let timerInterval = setInterval(() => {
+  //     setTimer((time) => {
+  //       return time - 1
+  //     })
+  //   }, 1000)
+
+  //   return () => {
+  //     clearInterval(timerInterval)
+  //   }
+  // }, [])
+
+  const renderer = ({ hours, minutes, seconds }) => {
+    return (
+      <span>
+        {minutes} mins {seconds} secs
+      </span>
+    )
   }
 
   return (
@@ -149,9 +168,19 @@ export default function Index() {
               </div>
             </div>
             <div className="relative mt-12 sm:mt-16 lg:mt-0">
-              {/* <div className="absolute z-10 p-8 text-white -translate-x-1/2 bg-blue-500 left-1/2 bottom-5">
-                {'Get it now!'}
-              </div> */}
+              <div
+                className={`absolute shadow-lg z-10 p-4 text-white font-bold -translate-x-1/2 bg-blue-500 left-1/2 bottom-20 flex-col justify-center items-center text-center rounded-xl ${
+                  banner ? 'hidden' : 'flex'
+                }`}
+              >
+                Hurry Up! <br />
+                The offer expires in <br />
+                <Countdown
+                  className={`${banner ? 'hidden' : 'flex'}`}
+                  date={Date.now() + 30 * 60 * 1000}
+                  renderer={renderer}
+                />
+              </div>
 
               <div className="pl-4 -mr-48 sm:pl-6 md:ml-48 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img

@@ -58,9 +58,9 @@ export default function BiofitReviews() {
           <div className="flex items-center mt-3">
             <div>
               <div className="flex items-center">
-                {[0, 1, 2, 3, 4].map((rating) => (
+                {[0, 1, 2, 3, 4].map((rating, key) => (
                   <StarIcon
-                    key={rating}
+                    key={key}
                     className={classNames(
                       reviews.average > rating
                         ? 'text-yellow-400'
@@ -82,8 +82,8 @@ export default function BiofitReviews() {
             <h3 className="sr-only">Review data</h3>
 
             <dl className="space-y-3">
-              {reviews.counts.map((count) => (
-                <div key={count.rating} className="flex items-center text-sm">
+              {reviews.counts.map((count, key) => (
+                <div key={key} className="flex items-center text-sm">
                   <dt className="flex items-center flex-1">
                     <p className="w-3 font-medium text-gray-900">
                       {count.rating}
@@ -128,8 +128,8 @@ export default function BiofitReviews() {
 
           <div className="flow-root">
             <div className="-my-12 divide-y divide-gray-200">
-              {reviews.featured.map((review) => (
-                <div key={review.id} className="py-12">
+              {reviews.featured.map((review, key) => (
+                <div key={key} className="py-12">
                   <div className="flex items-center">
                     <img
                       src={review.avatarSrc}
@@ -141,9 +141,9 @@ export default function BiofitReviews() {
                         {review.author}
                       </h4>
                       <div className="flex items-center mt-1">
-                        {[0, 1, 2, 3, 4].map((rating) => (
+                        {[0, 1, 2, 3, 4].map((rating, key) => (
                           <StarIcon
-                            key={rating}
+                            key={key}
                             className={classNames(
                               review.rating > rating
                                 ? 'text-yellow-400'
