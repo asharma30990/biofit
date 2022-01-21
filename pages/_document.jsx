@@ -21,12 +21,14 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <title>Biofit Official USA</title>
-          <description>
-            BioFit is an all-natural supplement that is known to enhance and
+
+          <meta
+            name="description"
+            content="BioFit is an all-natural supplement that is known to enhance and
             balance good bacteria in the gut area. To lose weight, you need to
             have a balanced hormones and body processes. Many times, people
-            struggle with weight loss because their gut health has issues.
-          </description>
+            struggle with weight loss because their gut health has issues."
+          />
         </Head>
         <body>
           <Main />
