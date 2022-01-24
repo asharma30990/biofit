@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 import Biofit from '../components/Biofit'
 import BiofitReviews from '../components/BiofitReviews'
@@ -36,6 +37,19 @@ export default function Index() {
 
   return (
     <>
+      <Head>
+        <title>
+          #1 Get BioFit™ 100% Natural Weight Loss Supplement Discount 2022- (®Official Website®) Sale 95% off Today +
+          Free Shipping (®Official Store®)
+        </title>
+
+        <meta
+          name="description"
+          content="
+          Get BioFit™ Weight Loss Supplement by Chrissie Miller. Limited Stocks Left Only. Take Action & Try For 180 Days! Order Online & Get Original BioFit™. Try Risk Free. Global Free Shipping. Get 3 Free Bonuses Today. Average Customers Rating 4.8 Out Of 5 Globally. 100% Natural Weight loss Pills. Try It Risk Free 180 Days 100%. Official & Verified Biofit Special Offer Coupon & Up To 95% off today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today!
+          "
+        />
+      </Head>
       <div
         onClick={closeBanner}
         className={`fixed top-0 left-0 z-10 flex items-center justify-center w-screen h-screen bg-black bg-opacity-50 ${
@@ -49,12 +63,7 @@ export default function Index() {
         <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white max-w-7xl sm:flex-row">
           <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
             <div className="cursor-pointer">
-              <img
-                href="#home"
-                className="h-10 p-2 px-4 bg-white rounded-md"
-                src="/images/logo.jpeg"
-                alt=""
-              />
+              <img href="#home" className="h-10 p-2 px-4 bg-white rounded-md" src="/images/logo.jpeg" alt="" />
             </div>
             <div className="cursor-pointer">
               <a href="#about">About</a>
@@ -84,17 +93,12 @@ export default function Index() {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">
-                    BioFit™ Official
-                  </h1>
+                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">BioFit™ Official</h1>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                    LOOSE WEIGHT FEELS GREAT
-                  </h2>
+                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOOSE WEIGHT FEELS GREAT</h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    After all my requirements were 100% met, we finally had the
-                    final product I called it BioFit.
+                    After all my requirements were 100% met, we finally had the final product I called it BioFit.
                   </p>
                   <div className="w-full mt-6 sm:w-2/3">
                     {/* <a
@@ -216,28 +220,22 @@ export default function Index() {
               What is Biofit Supplement?
             </h2>
             <p className="mt-6 text-xl text-gray-200 ">
-              BioFit is an all-natural supplement that is known to enhance and
-              balance good bacteria in the gut area. To lose weight, you need to
-              have a balanced hormones and body processes. Many times, people
-              struggle with weight loss because their gut health has issues.
+              BioFit is an all-natural supplement that is known to enhance and balance good bacteria in the gut area. To
+              lose weight, you need to have a balanced hormones and body processes. Many times, people struggle with
+              weight loss because their gut health has issues.
               <br /> <br />
-              Your gut health is important, especially when it comes to
-              digestion and boosting immune system. If it becomes unhealthy or
-              start leaking, you will definitely struggle to lose weight. It
-              doesn’t matter how much you work out or diet, you will struggle
-              with fitness levels if your gut is not healthy.
+              Your gut health is important, especially when it comes to digestion and boosting immune system. If it
+              becomes unhealthy or start leaking, you will definitely struggle to lose weight. It doesn’t matter how
+              much you work out or diet, you will struggle with fitness levels if your gut is not healthy.
               <br /> <br />
-              Your gut health relies on the good bacteria to boost metabolism,
-              stabilize the immune system, balance hormones, and stabilize your
-              mood. This means, when it is not in order, many body processes
-              will be greatly affected.
+              Your gut health relies on the good bacteria to boost metabolism, stabilize the immune system, balance
+              hormones, and stabilize your mood. This means, when it is not in order, many body processes will be
+              greatly affected.
               <br />
               <br />
               <div className="mt-4 mb-2 animate-bounce">
                 <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
-                  <a className="p-2 px-5 text-black bg-white rounded-2xl">
-                    Watch this video to know more!
-                  </a>
+                  <a className="p-2 px-5 text-black bg-white rounded-2xl">Watch this video to know more!</a>
                 </Link>
               </div>
             </p>
@@ -253,25 +251,19 @@ export default function Index() {
                     <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       100% Payment
                     </dt>
-                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
-                      Secured
-                    </dd>
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">Secured</dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
                     <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       24 hours / 7 days
                     </dt>
-                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
-                      Support
-                    </dd>
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">Support</dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
                     <dt className="order-2 mt-2 font-medium leading-6 text-gray-500 text-md md:text-lg">
                       100% Natural
                     </dt>
-                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">
-                      Ingredients
-                    </dd>
+                    <dd className="order-1 text-2xl font-bold text-purple-800 md:text-3xl">Ingredients</dd>
                   </div>
                 </dl>
               </div>
@@ -299,21 +291,10 @@ export default function Index() {
                 height="20"
                 patternUnits="userSpaceOnUse"
               >
-                <rect
-                  x="0"
-                  y="0"
-                  width="4"
-                  height="4"
-                  className="text-gray-200"
-                  fill="currentColor"
-                />
+                <rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor" />
               </pattern>
             </defs>
-            <rect
-              width="404"
-              height="784"
-              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            />
+            <rect width="404" height="784" fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)" />
           </svg>
 
           <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
@@ -341,18 +322,13 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
-                    INCREASED ENERGY
-                  </p>
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">INCREASED ENERGY</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
-                  An imbalanced gut flora is known to cause slow digestion,
-                  which can reduce energy levels in the body. Restoring healthy
-                  digestion and balancing your gut biome is known to increase
-                  energy levels and may provide you sustainable focus,
-                  productivity, and energy all day long . Biofit also helps
-                  speed up your metabolism as well, which may further boost
-                  energy levels.
+                  An imbalanced gut flora is known to cause slow digestion, which can reduce energy levels in the body.
+                  Restoring healthy digestion and balancing your gut biome is known to increase energy levels and may
+                  provide you sustainable focus, productivity, and energy all day long . Biofit also helps speed up your
+                  metabolism as well, which may further boost energy levels.
                 </dd>
               </div>
 
@@ -374,17 +350,13 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
-                    IMPROVED DIGESTION
-                  </p>
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">IMPROVED DIGESTION</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
-                  The bacteria in your gut are responsible for your digestion.
-                  An imbalance in your gut flora can cause poor digestion that
-                  may cause indigestion, diarrhea, constipation, and bloating.
-                  Biofit helps restore healthy digestion to relieve these
-                  symptoms, to boost your metabolism, and to improve your
-                  overall health & wellness.
+                  The bacteria in your gut are responsible for your digestion. An imbalance in your gut flora can cause
+                  poor digestion that may cause indigestion, diarrhea, constipation, and bloating. Biofit helps restore
+                  healthy digestion to relieve these symptoms, to boost your metabolism, and to improve your overall
+                  health & wellness.
                 </dd>
               </div>
 
@@ -406,16 +378,12 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
-                    BETTER IMMUNITY
-                  </p>
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">BETTER IMMUNITY</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
-                  Believe it or not, much of your immune system is found in your
-                  digestive tract. Your gut flora makes up around 75% of your
-                  immune system, which is why poor digestive health can lead to
-                  a weak immune system, frequent illness, and poor general
-                  health. Biofit helps restore a healthy gut flora and boost
+                  Believe it or not, much of your immune system is found in your digestive tract. Your gut flora makes
+                  up around 75% of your immune system, which is why poor digestive health can lead to a weak immune
+                  system, frequent illness, and poor general health. Biofit helps restore a healthy gut flora and boost
                   your immunity so your body remains strong.
                 </dd>
               </div>
@@ -438,17 +406,13 @@ export default function Index() {
                       />
                     </svg>
                   </div>
-                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
-                    LOSE WEIGHT
-                  </p>
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">LOSE WEIGHT</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
-                  While biofit isn’t your typical weight loss supplement, the
-                  science behind it is fairly straight forward. Various studies
-                  have shown that a poor gut flora can significantly impact
-                  digestion And reduce your body’s metabolic function. This is
-                  turn can lead to weight gain, high blood pressure, diabetes,
-                  and a number of other health issues & to fight off illness.
+                  While biofit isn’t your typical weight loss supplement, the science behind it is fairly straight
+                  forward. Various studies have shown that a poor gut flora can significantly impact digestion And
+                  reduce your body’s metabolic function. This is turn can lead to weight gain, high blood pressure,
+                  diabetes, and a number of other health issues & to fight off illness.
                 </dd>
               </div>
             </dl>
@@ -465,39 +429,31 @@ export default function Index() {
       <BiofitFAQ />
 
       <div className="flex justify-center pt-10">
-        <img
-          className="w-full max-w-screen-md"
-          src="/images/founder-x.jpeg"
-          alt=""
-        />
+        <img className="w-full max-w-screen-md" src="/images/founder-x.jpeg" alt="" />
       </div>
 
       <div className="bg-purple-800">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
           <div className="flex flex-col items-center justify-center gap-2 pt-4 text-sm text-center max-w-7xl">
-            <img
-              className="w-full m-4 bg-white rounded-md"
-              src="/images/clickbank.png"
-              alt=""
-            />
+            <img className="w-full m-4 bg-white rounded-md" src="/images/clickbank.png" alt="" />
 
-            <Link href="/biofit/privacy-policy">
+            <Link href="/biofit-2022/privacy-policy">
               <a>Privacy Policy</a>
             </Link>
 
-            <Link href="/biofit/terms-of-service">
+            <Link href="/biofit-2022/terms-of-service">
               <a>Terms of Service</a>
             </Link>
 
-            <Link href="/biofit/disclaimer">
+            <Link href="/biofit-2022/disclaimer">
               <a>Disclaimer</a>
             </Link>
 
-            <Link href="/biofit/returns-and-refunds">
+            <Link href="/biofit-2022/returns-and-refunds">
               <a>Return & Refunds</a>
             </Link>
 
-            <Link href="/biofit/contact">
+            <Link href="/biofit-2022/contact">
               <a>Contact</a>
             </Link>
           </div>
@@ -508,24 +464,12 @@ export default function Index() {
             </button>
           </div>
 
-          <img
-            href="#home"
-            className="h-12 p-2 px-4 mt-4 bg-white rounded-md"
-            src="/images/payments.jpeg"
-            alt=""
-          />
+          <img href="#home" className="h-12 p-2 px-4 mt-4 bg-white rounded-md" src="/images/payments.jpeg" alt="" />
 
-          <img
-            href="#home"
-            className="h-24 mt-4 bg-white rounded-md"
-            src="/images/moneyback.jpeg"
-            alt=""
-          />
+          <img href="#home" className="h-24 mt-4 bg-white rounded-md" src="/images/moneyback.jpeg" alt="" />
 
           <div className="w-full h-px mt-12 bg-white bg-opacity-25" />
-          <p className="max-w-xs pt-4 text-xs">
-            Copyright © 2022 Biofit Official
-          </p>
+          <p className="max-w-xs pt-4 text-xs">Copyright © 2022 Biofit Official</p>
         </div>
       </div>
     </>
