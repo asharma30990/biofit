@@ -4,7 +4,7 @@ const index = () => {
   return (
     <>
       <div className="mx-auto prose px-[5%] max-w-7xl pt-12 leading-5 text-xl">
-        <Link href="/biofit">
+        <Link href="/biofit-2022">
           <a>Back</a>
         </Link>
       </div>
@@ -18,9 +18,8 @@ const index = () => {
         <div>
           <h2>Connect With Our Customer Success Team</h2>
           <p>
-            We are here to help you reach your health goals! If you have any
-            questions, concerns or wish to provide feedback, please contact us
-            with the information below.
+            We are here to help you reach your health goals! If you have any questions, concerns or wish to provide
+            feedback, please contact us with the information below.
           </p>
           <h2>Contacting Support</h2>
           <div>
@@ -40,10 +39,9 @@ const index = () => {
             </ul>
           </div>
           <p>
-            Our team works around the clock to provide the best customer support
-            possible. If you contact us by phone or chat, you should get a
-            response from a live agent within a few minutes. If you contact us
-            by email, expect a response within 24 hours or less.
+            Our team works around the clock to provide the best customer support possible. If you contact us by phone or
+            chat, you should get a response from a live agent within a few minutes. If you contact us by email, expect a
+            response within 24 hours or less.
           </p>
           <p>Thank you.</p>
         </div>
