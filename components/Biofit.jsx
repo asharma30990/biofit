@@ -53,9 +53,7 @@ export default function Biofit() {
         {/* Product details */}
         <div className="lg:max-w-lg lg:self-end">
           <div className="mt-4">
-            <h1 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
-              {product.name}
-            </h1>
+            <h1 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">{product.name}</h1>
           </div>
 
           <section aria-labelledby="information-heading" className="mt-4">
@@ -64,9 +62,7 @@ export default function Biofit() {
             </h2>
 
             <div className="flex items-center">
-              <p className="text-lg text-gray-900 sm:text-xl">
-                {product.price}
-              </p>
+              <p className="text-lg text-gray-900 sm:text-xl">{product.price}</p>
 
               <div className="pl-4 ml-4 border-l border-gray-300">
                 <h2 className="sr-only">Reviews</h2>
@@ -77,9 +73,7 @@ export default function Biofit() {
                         <StarIcon
                           key={rating}
                           className={classNames(
-                            reviews.average > rating
-                              ? 'text-yellow-400'
-                              : 'text-gray-300',
+                            reviews.average > rating ? 'text-yellow-400' : 'text-gray-300',
                             'h-5 w-5 flex-shrink-0'
                           )}
                           aria-hidden="true"
@@ -88,9 +82,7 @@ export default function Biofit() {
                     </div>
                     <p className="sr-only">{reviews.average} out of 5 stars</p>
                   </div>
-                  <p className="ml-2 text-sm text-gray-500">
-                    {reviews.totalCount} reviews
-                  </p>
+                  <p className="ml-2 text-sm text-gray-500">{reviews.totalCount} reviews</p>
                 </div>
               </div>
             </div>
@@ -100,13 +92,8 @@ export default function Biofit() {
             </div>
 
             <div className="flex items-center mt-6">
-              <CheckIcon
-                className="flex-shrink-0 w-5 h-5 text-red-500"
-                aria-hidden="true"
-              />
-              <p className="ml-2 text-lg text-red-500 ">
-                95% off Today + Free Shipping
-              </p>
+              <CheckIcon className="flex-shrink-0 w-5 h-5 text-red-500" aria-hidden="true" />
+              <p className="ml-2 text-lg text-red-500 ">Attention! Get special 95% off Today + Free Shipping!</p>
             </div>
           </section>
         </div>
@@ -132,9 +119,7 @@ export default function Biofit() {
             <div className="sm:flex sm:justify-between">
               {/* Size selector */}
               <RadioGroup value={selectedSize} onChange={setSelectedSize}>
-                <RadioGroup.Label className="block pb-3 font-medium text-gray-700 text-md">
-                  Size
-                </RadioGroup.Label>
+                <RadioGroup.Label className="block pb-3 font-medium text-gray-700 text-md">Size</RadioGroup.Label>
                 {/* <div className="grid grid-cols-1 gap-4 mt-1 sm:grid-cols-2"> */}
                 <div className="flex flex-wrap justify-between w-full gap-y-4">
                   {product.sizes.map((size) => (
@@ -151,24 +136,16 @@ export default function Biofit() {
                     >
                       {({ active, checked }) => (
                         <>
-                          <RadioGroup.Label
-                            as="p"
-                            className="text-base font-medium text-gray-900"
-                          >
+                          <RadioGroup.Label as="p" className="text-base font-medium text-gray-900">
                             {size.name}
                           </RadioGroup.Label>
-                          <RadioGroup.Description
-                            as="p"
-                            className="mt-1 text-sm text-gray-500"
-                          >
+                          <RadioGroup.Description as="p" className="mt-1 text-sm text-gray-500">
                             {size.description}
                           </RadioGroup.Description>
                           <div
                             className={classNames(
                               active ? 'border' : 'border-2',
-                              checked
-                                ? 'border-purple-500'
-                                : 'border-transparent',
+                              checked ? 'border-purple-500' : 'border-transparent',
                               'absolute -inset-px rounded-lg pointer-events-none'
                             )}
                             aria-hidden="true"
@@ -194,9 +171,7 @@ export default function Biofit() {
                   className="flex-shrink-0 w-6 h-6 mr-2 text-gray-400 group-hover:text-gray-500"
                   aria-hidden="true"
                 />
-                <span className="text-gray-500 hover:text-gray-700">
-                  180 Days Moneyback Guarantee
-                </span>
+                <span className="text-gray-500 hover:text-gray-700">180 Days Moneyback Guarantee</span>
               </a>
             </div>
           </section>
