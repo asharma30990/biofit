@@ -61,21 +61,23 @@ export default function Index() {
 
       <div className="bg-purple-800">
         <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white max-w-7xl sm:flex-row">
-          <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-8 sm:text-base">
             <div className="cursor-pointer">
-              <img href="#home" className="h-10 p-2 px-4 bg-white rounded-md" src="/images/logo.jpeg" alt="" />
+              <img href="#home" className="h-10 p-2 px-4 bg-white rounded-md " src="/images/logo.jpeg" alt="" />
             </div>
-            <div className="cursor-pointer">
-              <a href="#about">About</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#benifits">Benifits</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#reviews">Reviews</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#faq">FAQ</a>
+            <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
+              <div className="cursor-pointer">
+                <a href="#about">About</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#benifits">Benifits</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#reviews">Reviews</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#faq">FAQ</a>
+              </div>
             </div>
           </div>
 
