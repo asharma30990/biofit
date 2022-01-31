@@ -235,9 +235,11 @@ export default function Index() {
               greatly affected.
               <br />
               <br />
-              <div className="mt-4 mb-2 animate-bounce">
+              <div className="flex justify-center w-full mt-4 mb-2 animate-bounce">
                 <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
-                  <a className="p-2 px-5 text-black bg-white rounded-2xl">Watch this video to know more!</a>
+                  <div className="p-2 px-5 text-black bg-white rounded-2xl w-fit">
+                    <a>Watch this video to know more!</a>
+                  </div>
                 </Link>
               </div>
             </p>
