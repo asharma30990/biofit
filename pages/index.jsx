@@ -30,7 +30,7 @@ export default function Index() {
   const renderer = ({ hours, minutes, seconds }) => {
     return (
       <span>
-        {minutes} mins {seconds} secs
+        {hours} hour {minutes} mins {seconds} secs
       </span>
     )
   }
@@ -182,7 +182,7 @@ export default function Index() {
                 Hurry Up! The offer expires in&nbsp;
                 <Countdown
                   className={`${banner ? 'hidden' : 'flex'}`}
-                  date={Date.now() + 30 * 60 * 1000}
+                  date={Date.now() + 120 * 60 * 1000}
                   renderer={renderer}
                 />
               </div>
