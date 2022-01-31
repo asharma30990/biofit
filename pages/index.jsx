@@ -38,15 +38,12 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>
-          #1 Get BioFit™ 100% Natural Weight Loss Supplement Discount 2022- (®Official Website®) Sale 95% off Today +
-          Free Shipping (®Official Store®)
-        </title>
+        <title>Biofit™ ® - Official Website - Best Weight Loss Supplement - Buy Now</title>
 
         <meta
           name="description"
           content="
-          Get BioFit™ Weight Loss Supplement by Chrissie Miller. Limited Stocks Left Only. Take Action & Try For 180 Days! Order Online & Get Original BioFit™. Try Risk Free. Global Free Shipping. Get 3 Free Bonuses Today. Average Customers Rating 4.8 Out Of 5 Globally. 100% Natural Weight loss Pills. Try It Risk Free 180 Days 100%. Official & Verified Biofit Special Offer Coupon & Up To 95% off today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today!
+          Biofit ®Official USA Website By Chrissie Miller - Biofit – No #1 Weight Loss Supplement. Trusted By 10M+ Highly Satisfied Users. No Side Effects.100% Safe & Secure. FDA Approved. Get BioFit Weight Loss Supplement Special Offer Up To 95% Off Today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today. Order Now. Secure Payments. Free Shipping Available. Fully 100% Natural Ingredients.
           "
         />
       </Head>
@@ -166,7 +163,7 @@ export default function Index() {
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
                       <div className="text-xl font-medium text-blue-500 animate-pulse">
-                        95% off Today + Free Shipping! While Supplies Last!
+                        Attention! Get special 95% off Today + Free Shipping!
                       </div>
                     </div>
                   </footer>

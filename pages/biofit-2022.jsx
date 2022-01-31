@@ -30,7 +30,7 @@ export default function Index() {
   const renderer = ({ hours, minutes, seconds }) => {
     return (
       <span>
-        {minutes} mins {seconds} secs
+        {hours} hour {minutes} mins {seconds} secs
       </span>
     )
   }
@@ -38,15 +38,12 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>
-          #1 Get BioFit™ 100% Natural Weight Loss Supplement Discount 2022- (®Official Website®) Sale 95% off Today +
-          Free Shipping (®Official Store®)
-        </title>
+        <title>Biofit™ ® - Official Website - Best Weight Loss Supplement - Buy Now</title>
 
         <meta
           name="description"
           content="
-          Get BioFit™ Weight Loss Supplement by Chrissie Miller. Limited Stocks Left Only. Take Action & Try For 180 Days! Order Online & Get Original BioFit™. Try Risk Free. Global Free Shipping. Get 3 Free Bonuses Today. Average Customers Rating 4.8 Out Of 5 Globally. 100% Natural Weight loss Pills. Try It Risk Free 180 Days 100%. Official & Verified Biofit Special Offer Coupon & Up To 95% off today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today!
+          Biofit ®Official USA Website By Chrissie Miller - Biofit – No #1 Weight Loss Supplement. Trusted By 10M+ Highly Satisfied Users. No Side Effects.100% Safe & Secure. FDA Approved. Get BioFit Weight Loss Supplement Special Offer Up To 95% Off Today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today. Order Now. Secure Payments. Free Shipping Available. Fully 100% Natural Ingredients.
           "
         />
       </Head>
@@ -61,21 +58,23 @@ export default function Index() {
 
       <div className="bg-purple-800">
         <div className="container relative z-0 flex flex-col items-center justify-between gap-8 px-8 py-6 mx-auto text-white max-w-7xl sm:flex-row">
-          <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-8 sm:text-base">
             <div className="cursor-pointer">
-              <img href="#home" className="h-10 p-2 px-4 bg-white rounded-md" src="/images/logo.jpeg" alt="" />
+              <img href="#home" className="h-10 p-2 px-4 bg-white rounded-md " src="/images/logo.jpeg" alt="" />
             </div>
-            <div className="cursor-pointer">
-              <a href="#about">About</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#benifits">Benifits</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#reviews">Reviews</a>
-            </div>
-            <div className="cursor-pointer">
-              <a href="#faq">FAQ</a>
+            <div className="flex items-center gap-4 sm:gap-8 sm:text-base">
+              <div className="cursor-pointer">
+                <a href="#about">About</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#benifits">Benifits</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#reviews">Reviews</a>
+              </div>
+              <div className="cursor-pointer">
+                <a href="#faq">FAQ</a>
+              </div>
             </div>
           </div>
 
@@ -164,7 +163,7 @@ export default function Index() {
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
                       <div className="text-xl font-medium text-blue-500 animate-pulse">
-                        95% off Today + Free Shipping! While Supplies Last!
+                        Attention! Get special 95% off Today + Free Shipping!
                       </div>
                     </div>
                   </footer>
@@ -180,7 +179,7 @@ export default function Index() {
                 Hurry Up! The offer expires in&nbsp;
                 <Countdown
                   className={`${banner ? 'hidden' : 'flex'}`}
-                  date={Date.now() + 30 * 60 * 1000}
+                  date={Date.now() + 120 * 60 * 1000}
                   renderer={renderer}
                 />
               </div>
@@ -233,9 +232,11 @@ export default function Index() {
               greatly affected.
               <br />
               <br />
-              <div className="mt-4 mb-2 animate-bounce">
+              <div className="flex justify-center w-full mt-4 mb-2 animate-bounce">
                 <Link href="https://gobiofit.com/video/?utm_source=clickbank&utm_medium=affiliate&utm_term=affiliate-traffic&utm_content=affid-hop-&utm_campaign=front-end&hop=aarti404">
-                  <a className="p-2 px-5 text-black bg-white rounded-2xl">Watch this video to know more!</a>
+                  <div className="p-2 px-5 text-black bg-white rounded-2xl w-fit">
+                    <a>Watch this video to know more!</a>
+                  </div>
                 </Link>
               </div>
             </p>
