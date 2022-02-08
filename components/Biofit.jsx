@@ -19,21 +19,21 @@ const product = {
       description: 'Best Value! You save $660!',
       imageSrc: '/images/product-six.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1642669184&vvvv=62696f66697473757070&cbskin=32234&cbexit=2127&cbfid=48638&cbf=WHJ5AL9QJS&cbitems=1-BF6-234&vvar=cbitems%3D1-BF6-234%26cbskin%3D32234%26cbfid%3D48638%26cbexit%3D2127%26hop%3Daarti404&oaref=01.413C54F897B388E01258ED72CFA5AC054886F5A91123C48D5EBAFB1E8C933FC50FD0A39D&corid=ffb2863a-1530-42b0-a942-d20024334b40',
+        'https://ssl.clickbank.net/order/orderform.html?time=1643472096&vvvv=62696f66697473757070&cbskin=32234&cbexit=2127&cbfid=48638&cbf=PGK4UQRRP9&cbitems=1-BF6-234&vvar=cbitems%3D1-BF6-234%26cbskin%3D32234%26cbfid%3D48638%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=e8ee7472-74f3-41e2-a852-99416121f691',
     },
     {
       name: '3 Bottles @ $49/each',
       description: 'Good value. You save $300!',
       imageSrc: '/images/product-three.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1642669145&vvvv=62696f66697473757070&cbskin=32235&cbexit=2127&cbfid=48637&cbf=WHJ5ALPQJS&cbitems=1-BF3-147&vvar=cbitems%3D1-BF3-147%26cbskin%3D32235%26cbfid%3D48637%26cbexit%3D2127%26hop%3Daarti404&oaref=01.413C54F897B388E01258ED72CFA5AC054886F5A91123C48D5EBAFB1E8C933FC50FD0A39D&corid=acc9a568-b197-4548-bf3e-f80ed74cb7aa',
+        'https://ssl.clickbank.net/order/orderform.html?time=1643472369&vvvv=62696f66697473757070&cbskin=32235&cbexit=2127&cbfid=48637&cbf=PGK4UQFQP9&cbitems=1-BF3-147&vvar=cbitems%3D1-BF3-147%26cbskin%3D32235%26cbfid%3D48637%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=2b7c82a5-258a-477b-b47d-ea205d45a892',
     },
     {
       name: '1 Bottle @ $68.99',
       description: '$59 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1642669095&vvvv=62696f66697473757070&cbskin=32236&cbexit=2127&cbfid=48636&cbf=WHJ5AL8QJS&cbitems=1-BF1-059&vvar=cbitems%3D1-BF1-059%26cbskin%3D32236%26cbfid%3D48636%26cbexit%3D2127%26hop%3Daarti404&oaref=01.413C54F897B388E01258ED72CFA5AC054886F5A91123C48D5EBAFB1E8C933FC50FD0A39D&corid=2fe5df4b-e9cf-4b92-8a48-83e27b51411a',
+        'https://ssl.clickbank.net/order/orderform.html?time=1643472429&vvvv=62696f66697473757070&cbskin=32236&cbexit=2127&cbfid=48636&cbf=PGK4UQJQP9&cbitems=1-BF1-059&vvar=cbitems%3D1-BF1-059%26cbskin%3D32236%26cbfid%3D48636%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=d38e9cc7-9309-42a8-8920-c30cdd7148e1',
     },
   ],
 }
