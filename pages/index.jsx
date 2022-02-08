@@ -438,23 +438,23 @@ export default function Index() {
           <div className="flex flex-col items-center justify-center gap-2 pt-4 text-sm text-center max-w-7xl">
             <img className="w-full m-4 bg-white rounded-md" src="/images/clickbank.png" alt="" />
 
-            <Link href="/biofit-2022/privacy-policy">
+            <Link href="/biofit/privacy-policy">
               <a>Privacy Policy</a>
             </Link>
 
-            <Link href="/biofit-2022/terms-of-service">
+            <Link href="/biofit/terms-of-service">
               <a>Terms of Service</a>
             </Link>
 
-            <Link href="/biofit-2022/disclaimer">
+            <Link href="/biofit/disclaimer">
               <a>Disclaimer</a>
             </Link>
 
-            <Link href="/biofit-2022/returns-and-refunds">
+            <Link href="/biofit/returns-and-refunds">
               <a>Return & Refunds</a>
             </Link>
 
-            <Link href="/biofit-2022/contact">
+            <Link href="/biofit/contact">
               <a>Contact</a>
             </Link>
           </div>

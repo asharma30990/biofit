@@ -4,7 +4,7 @@ const index = () => {
   return (
     <>
       <div className="mx-auto prose px-[5%] max-w-7xl pt-12 leading-5 text-xl">
-        <Link href="/biofit-2022">
+        <Link href="/biofit">
           <a>Back</a>
         </Link>
       </div>
