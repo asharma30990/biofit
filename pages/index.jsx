@@ -234,7 +234,7 @@ export default function Index() {
               <br />
               <div className="flex justify-center w-full mt-4 mb-2 animate-bounce">
                 <Link href="https://hop.clickbank.net/?affiliate=aarti404&vendor=biofitsupp&tid=ARTI500">
-                  <div className="p-2 px-5 text-black bg-white rounded-2xl w-fit">
+                  <div className="p-2 px-5 text-black bg-white rounded-2xl w-fit cursor-pointer">
                     <a>Watch this video to know more!</a>
                   </div>
                 </Link>
