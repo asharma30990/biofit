@@ -438,7 +438,7 @@ export default function Index() {
           <div className="flex flex-col items-center justify-center gap-2 pt-4 text-sm text-center max-w-7xl">
             <img className="w-full m-4 bg-white rounded-md" src="/images/clickbank.png" alt="" />
 
-            <p>*DISCLAIMER: YOU SHOULD NOT USE THIS INFORMATION AS A SUBSTITUTE FOR HELP FROM A LICENSED PROFESSIONAL. INDIVIDUAL RESULTS WILL VARY.</p>
+            <p>*DISCLAIMER: The Content on this website landing page is provided for informational purposes only, the content is not intended in any way as a substitute for professional advice. Always seek the advice of your physician or other qualified health care provider. Individual results may vary.</p>
 
             <Link href="/biofit-2022/privacy-policy">
               <a>Privacy Policy</a>
