@@ -19,7 +19,7 @@ const product = {
       description: 'Best Value! You save $660!',
       imageSrc: '/images/product-six.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1643472096&vvvv=62696f66697473757070&cbskin=32234&cbexit=2127&cbfid=48638&cbf=PGK4UQRRP9&cbitems=1-BF6-234&vvar=cbitems%3D1-BF6-234%26cbskin%3D32234%26cbfid%3D48638%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=e8ee7472-74f3-41e2-a852-99416121f691',
+        'https://hop.clickbank.net/?affiliate=aarti404&vendor=biofitsupp&cbpage=int-page&tid=ARTI500',
     },
     {
       name: '3 Bottles @ $49/each',
