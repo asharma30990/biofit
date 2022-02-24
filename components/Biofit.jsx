@@ -26,14 +26,14 @@ const product = {
       description: 'Good value. You save $300!',
       imageSrc: '/images/product-three.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1643472369&vvvv=62696f66697473757070&cbskin=32235&cbexit=2127&cbfid=48637&cbf=PGK4UQFQP9&cbitems=1-BF3-147&vvar=cbitems%3D1-BF3-147%26cbskin%3D32235%26cbfid%3D48637%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=2b7c82a5-258a-477b-b47d-ea205d45a892',
+        'https://hop.clickbank.net/?affiliate=aarti404&vendor=biofitsupp&cbpage=int-page&tid=ARTI500',
     },
     {
       name: '1 Bottle @ $68.99',
       description: '$59 + $9.99 Shipping',
       imageSrc: '/images/product-single.png',
       payment:
-        'https://ssl.clickbank.net/order/orderform.html?time=1643472429&vvvv=62696f66697473757070&cbskin=32236&cbexit=2127&cbfid=48636&cbf=PGK4UQJQP9&cbitems=1-BF1-059&vvar=cbitems%3D1-BF1-059%26cbskin%3D32236%26cbfid%3D48636%26cbexit%3D2127%26utm_source%3Dclickbank%26utm_medium%3Daffiliate%26utm_term%3Daffiliate-traffic%26utm_content%3Daffid-hop-%26utm_campaign%3Dfront-end%26hop%3Daarti404%26vendor%3Dbiofitsupp&oaref=01.C73D02447E71A26D2415565EBF694E7662C9CBA80FC364652BF1EBC31A12387B0DF0797B&corid=d38e9cc7-9309-42a8-8920-c30cdd7148e1',
+        'https://hop.clickbank.net/?affiliate=aarti404&vendor=biofitsupp&cbpage=int-page&tid=ARTI500',
     },
   ],
 }
