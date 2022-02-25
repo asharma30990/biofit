@@ -6,7 +6,7 @@ import { RadioGroup } from '@headlessui/react'
 import { ShieldCheckIcon } from '@heroicons/react/outline'
 
 const product = {
-  name: 'Save Up To $600 and Create Quick Select Your Discounted Package:',
+  name: 'Select Your Discounted Package:',
   href: '#',
   price: '',
   description:
