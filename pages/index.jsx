@@ -92,7 +92,7 @@ export default function Index() {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">BioFit™ Official</h1>
+                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">BioFit™ Official Website</h1>
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOOSE WEIGHT FEELS GREAT</h2>
