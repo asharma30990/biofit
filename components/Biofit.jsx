@@ -93,7 +93,7 @@ export default function Biofit() {
 
             <div className="flex items-center mt-6">
               <CheckIcon className="flex-shrink-0 w-5 h-5 text-red-500" aria-hidden="true" />
-              <p className="ml-2 text-lg text-red-500 ">Attention! Get Special 95% Off Today + Free Shipping!</p>
+              <p className="ml-2 text-lg text-red-500 ">Attention! Get Special 95% off Today + Free Shipping!</p>
             </div>
           </section>
         </div>
