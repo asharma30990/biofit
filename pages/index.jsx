@@ -163,7 +163,7 @@ export default function Index() {
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
                       <div className="text-xl font-medium text-blue-500 animate-pulse">
-                        Attention! Get Special 95% Off Today + Free Shipping.
+                        Attention! Get Special 95% off Today + Free Shipping.
                         You Can Only Buy It From The Official Website.
                       </div>
                     </div>
