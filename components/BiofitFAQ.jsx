@@ -152,7 +152,7 @@ export default function Example() {
           {/* Image gallery */}
           <img
             className="order-1 px-10 pt-8 lg:pt-0 lg:pr-0 lg:order-2"
-            src="/images/biofit-result.png"
+            src="/images/C:\Users\User\Desktop\Affiliate Marketing\biofit-assets\biofit pics & videos\biofit-result.png"
             alt=""
           />
         </div>
