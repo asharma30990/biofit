@@ -434,7 +434,7 @@ export default function Index() {
         <img className="w-full max-w-screen-md" src="/images/founder-x.jpg" alt="" />
       </div>
 
-      <div className="bg-purple-800">
+      <div className="bg-purple-600">
         <div className="relative z-0 container max-w-screen-xl px-5 md:px-[5%] mx-auto py-6 flex flex-col items-center text-center text-white">
           <div className="flex flex-col items-center justify-center gap-2 pt-4 text-sm text-center max-w-7xl">
             <img className="w-full m-4 bg-white rounded-md" src="/images/clickbank.png" alt="" />
