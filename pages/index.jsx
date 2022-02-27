@@ -95,7 +95,7 @@ export default function Index() {
                   <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">BioFit™ ® Official Website</h1>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOOSE WEIGHT FEELS GREAT</h2>
+                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT</h2>
                   <p className="mt-4 text-lg text-gray-500">
                     After all my requirements were 100% met, we finally had the final product I called it BioFit.
                   </p>
@@ -302,7 +302,7 @@ export default function Index() {
           <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
             <div className="lg:col-span-1">
               <h2 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
-                Time to boost your immunity.
+                Time to boost your immunity & lose weight with biofit supplement.
               </h2>
             </div>
             <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
