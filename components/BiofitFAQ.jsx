@@ -152,7 +152,7 @@ export default function Example() {
           {/* Image gallery */}
           <img
             className="order-1 px-10 pt-8 lg:pt-0 lg:pr-0 lg:order-2"
-            src="/image/biofit1234.jpg"
+            src="/image/mgbeoggbm8l61.jpg"
             alt=""
           />
         </div>
