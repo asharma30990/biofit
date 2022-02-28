@@ -53,7 +53,7 @@ export default function Index() {
           banner ? 'fixed' : 'hidden'
         }`}
       >
-        <img className="w-full max-w-xl p-4" src="/images/banner.jpeg" alt="" />
+        <img className="w-full max-w-xl p-4" src="/images/181347271_110733504465503_6255730761619840438_n.jpeg" alt="" />
       </div>
 
       <div className="bg-purple-800">
