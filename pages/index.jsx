@@ -97,8 +97,8 @@ export default function Index() {
                 <div className="mt-6">
                   <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT</h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    After all my requirements were 100% met, we finally had the final product I called it BioFit.
-                  </p>
+                    After all my requirements were 100% met, we finally had the final product I called it BioFit. Biofit supports healthy weight loss, Approved by FDA, Trusted By 10M+ Highly Satisfied Users, No Side Effects, 100% Safe & Secure.
+                  </p
                   <div className="w-full mt-6 sm:w-2/3">
                     {/* <a
                       href="#"
