@@ -95,10 +95,10 @@ export default function Index() {
                   <h1 className="text-4xl font-bold tracking-normal text-purple-800 sm:text-5xl">BioFit™ ®Official Website</h1>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT</h2>
+                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT.</h2>
                   <p className="mt-4 text-lg text-gray-500">
                     After all my requirements were 100% met, We finally had the final product I called it BioFit™. Biofit - No.#1 Weight Loss Supplement, GMP Certified, 100% - Natural Ingredients,
-                    Manufactured in USA, FDA Approved.
+                    Made in USA, FDA Approved.
                   </p>
                   <div className="w-full mt-6 sm:w-2/3">
                     {/* <a
