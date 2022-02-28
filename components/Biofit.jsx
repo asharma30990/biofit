@@ -171,7 +171,7 @@ export default function Biofit() {
                   className="flex-shrink-0 w-6 h-6 mr-2 text-gray-400 group-hover:text-gray-500"
                   aria-hidden="true"
                 />
-                <span className="text-gray-500 hover:text-gray-700">!Click on the Button Below and Access the Official Website at a Discount & Also Get 180 Days Money Back Guarantee.</span>
+                <span className="text-gray-500 hover:text-gray-700">Click on the Button Below and Access the ®Official Website at a Discount & Also Get 180 Days Money Back Guarantee.</span>
               </a>
             </div>
           </section>
