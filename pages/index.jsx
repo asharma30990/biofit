@@ -95,8 +95,8 @@ export default function Index() {
                   <h1 className="text-4xl font-bold tracking-normal text-purple-800 md:text-4xl">BioFit™ ®Official Website</h1>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-2xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT.</h2>
-                  <p className="mt-4 text-lg font-bold tracking-wide text-gray-500">
+                  <h2 className="text-3xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT.</h2>
+                  <p className="mt-3 text-lg font-bold tracking-wide text-gray-500">
                     After all my requirements were 100% met, We finally had the final product I called it Biofit. BioFit™ By Chrissie Miller - No.#1 Weight Loss Supplement, GMP Certified, 100% - Fully Natural Ingredients,
                     Approved by FDA, Made in USA.
                   </p>
