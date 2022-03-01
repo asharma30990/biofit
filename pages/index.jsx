@@ -178,7 +178,7 @@ export default function Index() {
                 }`}
               >
                 Hurry Up! The Offer Expires In&nbsp;
-                  <Countdown
+                <Countdown
                   className={`${banner ? 'hidden' : 'flex'}`}
                   date={Date.now() + 120 * 60 * 1000}
                   renderer={renderer}
