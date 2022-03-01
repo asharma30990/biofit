@@ -302,7 +302,7 @@ export default function Index() {
 
           <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
             <div className="lg:col-span-1">
-              <h2 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-normal text-gray-900 sm:text-3xl">
                 Time to boost your immunity with Biofit™ Supplement.
               </h2>
             </div>
