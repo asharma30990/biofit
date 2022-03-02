@@ -38,7 +38,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Biofit Official Website - Best Weight Supplement - Order Now Today</title>
+        <title>Biofit Official Website - Best Weight Loss Supplement - Order Now Today</title>
 
         <meta
           name="description"
