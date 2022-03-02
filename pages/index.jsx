@@ -92,11 +92,11 @@ export default function Index() {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 lg:text-5xl">BioFit™ ®Official Website</h1>
+                  <h1 className="text-4xl font-bold tracking-normal text-purple-800 lg:text-4xl">BioFit™ ®Official Website</h1>
                 </div>
                 <div className="mt-6">
                   <h2 className="text-2xl font-bold tracking-tight text-gray-900">LOSE WEIGHT FEELS GREAT.</h2>
-                  <p className="mt-5 text-lg font-Align tracking-tight text-gray-500">
+                  <p className="mt-4 text-xl font-Align tracking-tight text-gray-500">
                     After all my requirements were 100% met, We finally had the final product I called it BioFit™ ® By Chrissie Miller.            
                   </p>
                   <div className="w-full mt-6 sm:w-2/3">
