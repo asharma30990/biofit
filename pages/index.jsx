@@ -38,9 +38,9 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Biofit Official Website - Best Weight Loss Supplement - Order Now Today</title>
+        <title>Biofit™ Official Website - Discount 95% - Buy Now </title>
 
-        <meta
+        <mea
           name="description"
           content="
           Biofit™ ®Official USA Website By Chrissie Miller - Biofit – No #1 Weight Loss Supplement. Trusted By 10M+ Highly Satisfied Users. No Side Effects.100% Safe & Secure. FDA Approved. Get BioFit Weight Loss Supplement Special Offer Up To 95% Off Today + Free Shipping. Buy 1 - $59/Bottle. Buy 3 - $49/Bottle. Buy 6 - $39/Bottle. Get Biofit Today. Order Now. Secure Payments. Free Shipping Available. Fully 100% Natural Ingredients.
